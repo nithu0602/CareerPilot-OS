@@ -1,9 +1,12 @@
-import { useRef, useState } from "react";
-import { Upload, FileText, CheckCircle } from "lucide-react";
+"use client";
+import { useRef } from "react";
+import { Upload, FileText } from "lucide-react";
 
 export function ResumeUploader() {
+  const fileInputRef = useRef<HTMLInputElement>(null);
   return (
     <section
+  onClick={() => fileInputRef.current?.click()}
   className="
     rounded-2xl
     border-2
@@ -17,7 +20,12 @@ export function ResumeUploader() {
     hover:bg-slate-900/70
     cursor-pointer
   "
->
+>     <input
+  ref={fileInputRef}
+  type="file"
+  accept=".pdf,.doc,.docx"
+  className="hidden"
+/>
       <div className="flex flex-col items-center text-center">
         <div className="mb-6 rounded-full bg-teal-500/10 p-5">
           <Upload className="h-10 w-10 text-teal-400" />
