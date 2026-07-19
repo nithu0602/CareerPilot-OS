@@ -1,0 +1,1 @@
+export const routes = { home: "/", login: "/login", register: "/register", dashboard: "/dashboard", resume: "/resume", jobs: "/jobs", applications: "/applications", interview: "/interview", strategy: "/strategy", learning: "/learning", settings: "/settings" } as const;
