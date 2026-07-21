@@ -3,6 +3,7 @@
 import asyncio
 from collections.abc import Awaitable, Callable
 
+
 from openai import (
     APIConnectionError,
     APIStatusError,
@@ -94,26 +95,108 @@ class ResumeAnalyzer:
             await self._client.close()
 
     async def _run_with_retry(self, operation: RetryableCall) -> object:
-        """Run retryable OpenAI requests with bounded exponential backoff."""
+        """Run retryable OpenAI requests with detailed debugging."""
         attempts = self._settings.openai_max_retries + 1
+
         for attempt in range(attempts):
             try:
                 return await operation()
-            except APITimeoutError as error:
-                if attempt == attempts - 1:
-                    raise OpenAIAnalysisTimeout("Resume analysis timed out.") from error
-                await self._wait_before_retry(attempt, "timeout")
-            except (APIConnectionError, RateLimitError, InternalServerError) as error:
-                if attempt == attempts - 1:
-                    raise OpenAIAnalysisUnavailable("Resume analysis is temporarily unavailable.") from error
-                await self._wait_before_retry(attempt, type(error).__name__)
-            except APIStatusError as error:
-                if error.status_code >= 500 and attempt < attempts - 1:
-                    await self._wait_before_retry(attempt, f"http_{error.status_code}")
-                    continue
-                raise OpenAIAnalysisUnavailable("Resume analysis request was not accepted.") from error
 
-        raise OpenAIAnalysisUnavailable("Resume analysis is temporarily unavailable.")
+            except APITimeoutError as error:
+                print("\n========== OPENAI TIMEOUT ==========")
+                print(error)
+
+                if attempt == attempts - 1:
+                    raise OpenAIAnalysisTimeout(
+                        "Resume analysis timed out."
+                    ) from error
+
+                await self._wait_before_retry(attempt, "timeout")
+                continue
+
+            except (APIConnectionError, RateLimitError, InternalServerError) as error:
+                print("\n========== OPENAI ERROR ==========")
+                print(f"Attempt: {attempt + 1}/{attempts}")
+                print(f"Exception Type: {type(error).__name__}")
+                print(f"Exception: {repr(error)}")
+
+                status = getattr(error, "status_code", None)
+                if status is not None:
+                    print(f"Status Code: {status}")
+
+                response = getattr(error, "response", None)
+                if response is not None:
+                    print("\n----- RESPONSE OBJECT -----")
+                    print(response)
+
+                    try:
+                        print("\n----- RESPONSE TEXT -----")
+                        print(response.text)
+                    except Exception as ex:
+                        print("Unable to read response.text")
+                        print(ex)
+
+                    try:
+                        print("\n----- RESPONSE JSON -----")
+                        print(response.json())
+                    except Exception as ex:
+                        print("Unable to read response.json()")
+                        print(ex)
+
+                if error.__cause__:
+                    print("\n----- CAUSE -----")
+                    print(repr(error.__cause__))
+
+                if attempt == attempts - 1:
+                    raise OpenAIAnalysisUnavailable(
+                        "Resume analysis is temporarily unavailable."
+                    ) from error
+
+                await self._wait_before_retry(
+                    attempt,
+                    type(error).__name__,
+                )
+                continue
+
+            except APIStatusError as error:
+                print("\n========== API STATUS ERROR ==========")
+                print(f"Attempt: {attempt + 1}/{attempts}")
+                print(f"Status Code: {error.status_code}")
+                print(f"Exception: {repr(error)}")
+
+                response = getattr(error, "response", None)
+                if response is not None:
+                    print("\n----- RESPONSE OBJECT -----")
+                    print(response)
+
+                    try:
+                        print("\n----- RESPONSE TEXT -----")
+                        print(response.text)
+                    except Exception as ex:
+                        print("Unable to read response.text")
+                        print(ex)
+
+                    try:
+                        print("\n----- RESPONSE JSON -----")
+                        print(response.json())
+                    except Exception as ex:
+                        print("Unable to read response.json()")
+                        print(ex)
+
+                if error.status_code >= 500 and attempt < attempts - 1:
+                    await self._wait_before_retry(
+                        attempt,
+                        f"http_{error.status_code}",
+                    )
+                    continue
+
+                raise OpenAIAnalysisUnavailable(
+                    "Resume analysis request was not accepted."
+                ) from error
+
+        raise OpenAIAnalysisUnavailable(
+            "Resume analysis is temporarily unavailable."
+        )
 
     async def _wait_before_retry(self, attempt: int, reason: str) -> None:
         """Log and apply a bounded exponential retry delay."""
