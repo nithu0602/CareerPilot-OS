@@ -13,3 +13,9 @@ export interface LearningPlan { id: ID; goal: string; active: boolean; }
 export interface APIResponse<T> { data: T; meta: Record<string, unknown>; }
 export interface APIError { error: { code: string; message: string; details?: Record<string, unknown>; }; }
 export interface PaginatedResponse<T> extends APIResponse<T[]> { meta: { page: number; pageSize: number; total: number; }; }
+export interface ResumeUploadResponse { filename: string; file_type: "pdf" | "docx"; file_size_bytes: number; page_count: number | null; character_count: number; word_count: number; raw_text: string; }
+export interface ATSSectionScores { skills: number; experience: number; education: number; projects: number; keywords: number; }
+export interface ATSAnalysis { overall_score: number; section_scores: ATSSectionScores; strengths: string[]; improvements: string[]; }
+export interface JobMatch { title: string; match: number; salary: string; reason: string; }
+export interface InterviewPreparation { technical: string[]; behavioral: string[]; resume_questions: string[]; }
+export interface DashboardAnalysis { candidate_name: string; ats: ATSAnalysis; job_matches: JobMatch[]; interview: InterviewPreparation; processing_time_ms: number; }

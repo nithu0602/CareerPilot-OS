@@ -1,25 +1,86 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useMutation, useQueryClient } from "@tanstack/react-query";
+import { useRouter } from "next/navigation";
+import { useRef, useState, type ChangeEvent } from "react";
 import { Upload, FileText, CheckCircle2 } from "lucide-react";
+import { AnalysisErrorCard } from "@/features/dashboard/components/analysis-error-card";
+import { AnalysisLoadingScreen, type AnalysisPhase } from "@/features/dashboard/components/analysis-loading-screen";
+import { logger } from "@/lib/logger";
+import { analyzeDashboard, dashboardQueryKey, uploadResume } from "@/services/careerpilot-api";
+import type { DashboardAnalysis } from "@/types";
+
+const maximumFileSizeBytes = 5 * 1024 * 1024;
+const acceptedFileTypes = new Set(["application/pdf", "application/vnd.openxmlformats-officedocument.wordprocessingml.document"]);
 
 export function ResumeUploader() {
   const fileInputRef = useRef<HTMLInputElement>(null);
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
+  const [phase, setPhase] = useState<AnalysisPhase>("uploading");
+  const [validationMessage, setValidationMessage] = useState<string | null>(null);
+  const router = useRouter();
+  const queryClient = useQueryClient();
 
-  const handleFileChange = (
-    event: React.ChangeEvent<HTMLInputElement>
-  ) => {
-    const file = event.target.files?.[0];
+  const analysisMutation = useMutation<DashboardAnalysis, Error, File>({
+    mutationFn: async (file) => {
+      setPhase("uploading");
+      const upload = await uploadResume(file);
+      if (!upload.raw_text.trim()) {
+        throw new Error("We could not extract readable text from this resume. Please choose another PDF or DOCX file.");
+      }
 
-    if (!file) return;
+      setPhase("analyzing");
+      return analyzeDashboard(upload.raw_text);
+    },
+    onSuccess: (analysis) => {
+      queryClient.setQueryData(dashboardQueryKey, analysis);
+      router.push("/dashboard");
+    },
+    onError: (error) => {
+      logger.error("resume_analysis_failed", { message: error.message });
+    },
+  });
+
+  const startAnalysis = (file: File) => {
+    if (file.size > maximumFileSizeBytes) {
+      setValidationMessage("This file is larger than 5 MB. Please choose a smaller PDF or DOCX resume.");
+      return;
+    }
+    if (!acceptedFileTypes.has(file.type) && !/\.(pdf|docx)$/i.test(file.name)) {
+      setValidationMessage("Please choose a PDF or DOCX resume.");
+      return;
+    }
 
     setSelectedFile(file);
+    setValidationMessage(null);
+    analysisMutation.reset();
+    analysisMutation.mutate(file);
+  };
+
+  const handleFileChange = (event: ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    event.target.value = "";
+    if (file) startAnalysis(file);
   };
 
   const openFilePicker = () => {
     fileInputRef.current?.click();
   };
+
+  if (analysisMutation.isPending) {
+    return <AnalysisLoadingScreen phase={phase} />;
+  }
+
+  const errorMessage = validationMessage ?? analysisMutation.error?.message;
+  if (errorMessage) {
+    return (
+      <AnalysisErrorCard
+        message={errorMessage}
+        onRetry={() => selectedFile && startAnalysis(selectedFile)}
+        retryDisabled={!selectedFile}
+      />
+    );
+  }
 
   return (
     <section
@@ -41,7 +102,7 @@ export function ResumeUploader() {
       <input
         ref={fileInputRef}
         type="file"
-        accept=".pdf,.doc,.docx"
+        accept=".pdf,.docx,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
         className="hidden"
         onChange={handleFileChange}
       />
@@ -56,7 +117,7 @@ export function ResumeUploader() {
         </h2>
 
         <p className="mt-3 max-w-lg text-slate-400">
-          Drag & drop your resume here or click below to browse.
+          Choose your resume and we&apos;ll automatically create your dashboard.
         </p>
 
         <button
