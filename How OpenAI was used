@@ -1,0 +1,18 @@
+## How OpenAI was used
+
+CareerPilot OS was developed during OpenAI Build Week using both Codex and GPT-5.6.
+
+### Codex
+- Generated backend service scaffolding
+- Created FastAPI endpoints
+- Implemented API schemas
+- Built orchestration services
+- Assisted with frontend component generation
+- Accelerated refactoring and debugging
+
+### GPT-5.6
+- Designed the overall software architecture
+- Helped engineer prompts for rapid development
+- Assisted in API design
+- Guided debugging and system integration
+- Helped improve documentation and developer experience
