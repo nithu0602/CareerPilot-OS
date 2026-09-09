@@ -1,0 +1,28 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+backend/data/
+backend/data/jobs/interviews/
+backend/data/jobs/applications/
+backend/.pytest_cache/
+
+# Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/tsconfig.tsbuildinfo
+
+# Local runtime/user data
+data/resumes/
+data/jobs/
+data/matches/
+data/interviews/
+data/applications/
+data/career/
