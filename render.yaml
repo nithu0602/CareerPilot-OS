@@ -1,0 +1,30 @@
+services:
+  - type: web
+    name: careerpilot-backend
+    runtime: python
+    rootDir: backend
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: LOG_LEVEL
+        value: INFO
+      # Update this after your Vercel frontend URL is known, e.g.:
+      # ["https://career-pilot-os.vercel.app"]
+      - key: FRONTEND_ORIGINS
+        value: '["https://career-pilot-os.vercel.app"]'
+      - key: JOBS_CACHE_DIR
+        value: data/jobs
+      # Optional: set these in the Render dashboard (not committed here)
+      # for live Anakin job search instead of demo-only mode.
+      - key: ANAKIN_API_KEY
+        sync: false
+      - key: ANAKIN_API_URL
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_ANON_KEY
+        sync: false

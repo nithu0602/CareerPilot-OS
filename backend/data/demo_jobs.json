@@ -1,0 +1,3520 @@
+[
+  {
+    "job_id": "demo-data-001",
+    "title": "Graduate Data Analyst",
+    "company": "Northstar Analytics (Demo)",
+    "location": "London, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 30,000-35,000",
+    "deadline": "2026-10-31",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-data-001",
+    "description": "Support reporting and analysis for product and client teams in a growing London analytics consultancy.",
+    "requirements": [
+      "Bachelor's degree in a quantitative discipline",
+      "0-2 years of analytical experience"
+    ],
+    "responsibilities": [
+      "Build recurring reports",
+      "Explain trends to stakeholders",
+      "Support ad-hoc data requests"
+    ],
+    "required_skills": [
+      "SQL",
+      "Excel",
+      "Python"
+    ],
+    "preferred_skills": [
+      "Power BI",
+      "Tableau"
+    ],
+    "eligibility": "Open to UK graduates; verification of right to work required.",
+    "sponsorship_information": "We may consider sponsorship for exceptional candidates.",
+    "education": "Bachelor's degree (or equivalent) in a quantitative or STEM discipline.",
+    "experience": "0-2 years; internships and placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-data-001",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "DATA",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-data-002",
+    "title": "Junior Data Scientist",
+    "company": "Blue Cedar Labs (Demo)",
+    "location": "Edinburgh, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 31,000-36,000",
+    "deadline": "2026-11-15",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-data-002",
+    "description": "Develop experiments and models for customer behaviour insights in a Scottish data science studio.",
+    "requirements": [
+      "Degree in computer science, statistics, or a related field",
+      "Experience with applied analysis"
+    ],
+    "responsibilities": [
+      "Prepare datasets",
+      "Evaluate model performance",
+      "Communicate findings to product teams"
+    ],
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Machine learning"
+    ],
+    "preferred_skills": [
+      "scikit-learn",
+      "Cloud platforms"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "Candidates must have the right to work in the UK; we do not sponsor for this role.",
+    "education": "Degree in computer science, statistics, mathematics, or a related field.",
+    "experience": "0-2 years; university research or project work is relevant.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-data-002",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "DATA",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-data-005",
+    "title": "Business Intelligence Analyst",
+    "company": "Harbor Metrics (Demo)",
+    "location": "Bristol, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 28,000-33,000",
+    "deadline": "2026-12-01",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-data-005",
+    "description": "Turn operational and customer data into BI dashboards for a Bristol-based retail analytics studio.",
+    "requirements": [
+      "Degree in business, economics, or a related field",
+      "Strong written communication"
+    ],
+    "responsibilities": [
+      "Maintain BI dashboards",
+      "Analyse campaign and sales data",
+      "Document reporting logic"
+    ],
+    "required_skills": [
+      "SQL",
+      "Excel",
+      "Data visualisation"
+    ],
+    "preferred_skills": [
+      "Power BI",
+      "Python"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": null,
+    "education": "Degree in a business, economics, or quantitative discipline.",
+    "experience": "0-2 years of business analysis or reporting experience.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-data-005",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": null
+    },
+    "category": "DATA",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-data-008",
+    "title": "Product Data Intern",
+    "company": "Signal Grove (Demo)",
+    "location": "Remote - United Kingdom",
+    "employment_type": "Internship (12 weeks)",
+    "salary": "GBP 24,000 pro-rata",
+    "deadline": "2027-01-15",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-data-008",
+    "description": "Support a remote analytics team with data quality checks, experimentation tracking, and analysis.",
+    "requirements": [
+      "Currently studying a quantitative or STEM degree (penultimate or final year)"
+    ],
+    "responsibilities": [
+      "Maintain experiment logs",
+      "Clean and validate datasets",
+      "Summarise weekly product metrics"
+    ],
+    "required_skills": [
+      "SQL",
+      "Excel",
+      "Python"
+    ],
+    "preferred_skills": [
+      "A/B testing",
+      "Git"
+    ],
+    "eligibility": "Open to current students eligible to work in the UK.",
+    "sponsorship_information": "We may consider sponsorship for exceptional candidates.",
+    "education": "Currently studying a quantitative or STEM degree (penultimate or final year).",
+    "experience": "No prior work experience required.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-data-008",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "DATA",
+    "experience_level": "INTERNSHIP",
+    "work_mode": "REMOTE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-data-010",
+    "title": "Research Data Assistant",
+    "company": "Prairie Insights (Demo)",
+    "location": "Sheffield, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": null,
+    "deadline": "2026-11-30",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-data-010",
+    "description": "Assist a market research team with survey data preparation, cleaning, and summary reporting.",
+    "requirements": [
+      "Degree in any discipline with strong numeracy",
+      "Careful attention to detail"
+    ],
+    "responsibilities": [
+      "Prepare survey datasets",
+      "Run quality checks",
+      "Produce summary tables and charts"
+    ],
+    "required_skills": [
+      "Excel",
+      "SQL",
+      "Data analysis"
+    ],
+    "preferred_skills": [
+      "SPSS",
+      "R"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "Candidates must have the right to work in the UK; we do not sponsor for this role.",
+    "education": "Any degree with demonstrable numeracy.",
+    "experience": "Entry level; graduate and placement experience welcome.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-data-010",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "DATA",
+    "experience_level": "ENTRY_LEVEL",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-data-012",
+    "title": "Data Platform Associate",
+    "company": "Lakehouse Works (Demo)",
+    "location": "Glasgow, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 29,000-34,000",
+    "deadline": "2026-12-15",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-data-012",
+    "description": "Help maintain and grow the data platform behind a fast-moving Scottish analytics firm.",
+    "requirements": [
+      "Degree in computer science or a related field",
+      "Database fundamentals"
+    ],
+    "responsibilities": [
+      "Maintain documentation",
+      "Support data pipelines",
+      "Triage platform alerts"
+    ],
+    "required_skills": [
+      "SQL",
+      "Python",
+      "Git"
+    ],
+    "preferred_skills": [
+      "dbt",
+      "Airflow",
+      "AWS"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We will sponsor eligible candidates for this role.",
+    "education": "Degree in computer science or a closely related field.",
+    "experience": "0-2 years or strong placement/project evidence.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-data-012",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "DATA",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-data-016",
+    "title": "Graduate Data Analyst",
+    "company": "Thameswick Analytics (Demo)",
+    "location": "London, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 30,000-35,000",
+    "deadline": "2026-10-15",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-data-016",
+    "description": "Join a Thames-side analytics team turning client data into decisions across finance and retail.",
+    "requirements": [
+      "Degree in a quantitative or STEM discipline",
+      "Comfortable working with SQL and spreadsheets"
+    ],
+    "responsibilities": [
+      "Build recurring reporting",
+      "Support ad-hoc data requests",
+      "Present insights to non-technical stakeholders"
+    ],
+    "required_skills": [
+      "SQL",
+      "Excel",
+      "Python"
+    ],
+    "preferred_skills": [
+      "Power BI",
+      "Tableau"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We are able to sponsor eligible candidates for this role.",
+    "education": "Degree in a quantitative or STEM discipline.",
+    "experience": "0-2 years; internships and placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-data-016",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "DATA",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-data-020",
+    "title": "Data Science Intern",
+    "company": "London Insight Labs (Demo)",
+    "location": "London, United Kingdom",
+    "employment_type": "Internship (10 weeks)",
+    "salary": "GBP 23,500 pro-rata",
+    "deadline": "2027-02-01",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-data-020",
+    "description": "A summer internship on a data science team working on recommendation and forecasting models.",
+    "requirements": [
+      "Currently studying computer science, data science, or a related field"
+    ],
+    "responsibilities": [
+      "Clean datasets",
+      "Run experiments",
+      "Present findings to the lab"
+    ],
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Machine learning"
+    ],
+    "preferred_skills": [
+      "scikit-learn",
+      "pandas"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "Sponsorship will be considered on a case-by-case basis for strong candidates.",
+    "education": "Currently studying a quantitative or STEM degree.",
+    "experience": "No prior work experience required; academic projects are relevant.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-data-020",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "DATA",
+    "experience_level": "INTERNSHIP",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-data-021",
+    "title": "Graduate Data Engineer",
+    "company": "Northern Fintech Co. (Demo)",
+    "location": "Leeds, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 30,000-35,000",
+    "deadline": "2026-11-30",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-data-021",
+    "description": "Build and maintain the data pipelines behind a Leeds-based fintech's analytics platform.",
+    "requirements": [
+      "Degree in computer science or a related field",
+      "Experience with SQL and Python"
+    ],
+    "responsibilities": [
+      "Build and monitor pipelines",
+      "Maintain the data warehouse schema",
+      "Document data lineage"
+    ],
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Git"
+    ],
+    "preferred_skills": [
+      "dbt",
+      "Airflow",
+      "Snowflake"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We will sponsor eligible candidates.",
+    "education": "Degree in computer science or a related technical field.",
+    "experience": "0-2 years; placement and project evidence welcome.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-data-021",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "DATA",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-data-022",
+    "title": "Junior Data Scientist - Healthcare",
+    "company": "Edinburgh Health Analytics (Demo)",
+    "location": "Edinburgh, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 31,000-36,000",
+    "deadline": "2026-12-10",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-data-022",
+    "description": "Analyse anonymised health data to improve service planning for public-sector healthcare partners.",
+    "requirements": [
+      "Degree in statistics, data science, or a related field",
+      "Familiarity with healthcare data and governance"
+    ],
+    "responsibilities": [
+      "Build predictive models",
+      "Run analysis on anonymised datasets",
+      "Present to non-technical clinical stakeholders"
+    ],
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Statistics"
+    ],
+    "preferred_skills": [
+      "R",
+      "Machine learning",
+      "Data governance"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": null,
+    "education": "Degree in statistics, data science, mathematics, or a related field.",
+    "experience": "0-2 years; academic research on health/medical data is relevant.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-data-022",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": null
+    },
+    "category": "DATA",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-data-023",
+    "title": "Graduate Data Analyst",
+    "company": "Manchester Tech Analytics (Demo)",
+    "location": "Manchester, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 28,000-33,000",
+    "deadline": "2026-11-15",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-data-023",
+    "description": "Support data analysis and reporting for a growing Manchester fintech and its client teams.",
+    "requirements": [
+      "Degree in a quantitative or STEM discipline",
+      "Comfortable working with SQL and spreadsheets"
+    ],
+    "responsibilities": [
+      "Build recurring reporting",
+      "Support ad-hoc data requests",
+      "Document analysis methods"
+    ],
+    "required_skills": [
+      "SQL",
+      "Excel",
+      "Python"
+    ],
+    "preferred_skills": [
+      "Power BI",
+      "Tableau"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We may consider sponsorship for exceptional candidates.",
+    "education": "Degree in a quantitative or STEM discipline.",
+    "experience": "0-2 years; internships and placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-data-023",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "DATA",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-data-024",
+    "title": "Junior Data Analyst",
+    "company": "Birmingham Consulting Partners (Demo)",
+    "location": "Birmingham, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 26,000-31,000",
+    "deadline": "2026-12-01",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-data-024",
+    "description": "Support business intelligence and data reporting for Midlands client projects.",
+    "requirements": [
+      "Degree in business, economics, or a related field",
+      "Strong written communication"
+    ],
+    "responsibilities": [
+      "Prepare client-ready analysis",
+      "Support project delivery",
+      "Maintain internal BI dashboards"
+    ],
+    "required_skills": [
+      "SQL",
+      "Excel",
+      "Data analysis"
+    ],
+    "preferred_skills": [
+      "Power BI",
+      "Python"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We are able to sponsor eligible candidates for this role.",
+    "education": "Degree in business, economics, or a related field.",
+    "experience": "0-2 years; placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-data-024",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "DATA",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-tech-003",
+    "title": "Software Engineer, New Grad",
+    "company": "Maple Stack (Demo)",
+    "location": "Cambridge, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 32,000-38,000",
+    "deadline": "2026-10-20",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-tech-003",
+    "description": "Build reliable web services for a Cambridge developer-platform company alongside a supportive engineering team.",
+    "requirements": [
+      "Computer science degree or equivalent experience",
+      "Strong programming fundamentals"
+    ],
+    "responsibilities": [
+      "Ship backend features",
+      "Write and review tests",
+      "Participate in design reviews"
+    ],
+    "required_skills": [
+      "Python",
+      "TypeScript",
+      "Git",
+      "SQL"
+    ],
+    "preferred_skills": [
+      "React",
+      "Docker",
+      "AWS"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We will sponsor eligible candidates.",
+    "education": "Computer science degree or equivalent practical experience.",
+    "experience": "0-2 years; final-year project evidence welcome.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-tech-003",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "IT_SOFTWARE",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-tech-004",
+    "title": "Backend Developer",
+    "company": "Orbit Commerce (Demo)",
+    "location": "Bristol, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 29,000-35,000",
+    "deadline": "2026-11-05",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-tech-004",
+    "description": "Develop APIs and integrations for an e-commerce platform serving independent UK retailers.",
+    "requirements": [
+      "Degree in computer science or related field",
+      "Working knowledge of at least one backend language"
+    ],
+    "responsibilities": [
+      "Build REST APIs",
+      "Debug production issues",
+      "Improve API test coverage"
+    ],
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Git"
+    ],
+    "preferred_skills": [
+      "PostgreSQL",
+      "Redis",
+      "Docker"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": null,
+    "education": "Degree in computer science or a related field.",
+    "experience": "0-2 years; strong project portfolio acceptable.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-tech-004",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": null
+    },
+    "category": "IT_SOFTWARE",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-tech-006",
+    "title": "Frontend Engineer",
+    "company": "Pinecone Studio (Demo)",
+    "location": "Manchester, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 28,000-33,000",
+    "deadline": "2026-12-05",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-tech-006",
+    "description": "Build accessible, fast customer-facing interfaces for a Manchester digital product studio.",
+    "requirements": [
+      "Degree in computer science or related field",
+      "Strong HTML/CSS/JavaScript fundamentals"
+    ],
+    "responsibilities": [
+      "Implement UI components",
+      "Fix accessibility issues",
+      "Collaborate with designers"
+    ],
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "HTML/CSS"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Tailwind CSS",
+      "Figma"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "Candidates must have the right to work in the UK; we do not sponsor for this role.",
+    "education": "Degree in computer science or a related field, or equivalent portfolio.",
+    "experience": "0-2 years; personal projects count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-tech-006",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "IT_SOFTWARE",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-cloud-007",
+    "title": "Cloud Operations Associate",
+    "company": "Summit Systems (Demo)",
+    "location": "Glasgow, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 26,000-30,000",
+    "deadline": "2026-11-20",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-cloud-007",
+    "description": "Monitor and support cloud infrastructure for public and private sector customers of a Scottish systems firm.",
+    "requirements": [
+      "Technical degree or equivalent infrastructure experience",
+      "Interest in Linux and networking"
+    ],
+    "responsibilities": [
+      "Monitor platform health",
+      "Triage incidents",
+      "Maintain runbooks"
+    ],
+    "required_skills": [
+      "Linux",
+      "Networking",
+      "Bash"
+    ],
+    "preferred_skills": [
+      "AWS",
+      "Terraform",
+      "Docker"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We may consider sponsorship for exceptional candidates.",
+    "education": "Technical degree, apprenticeship, or equivalent hands-on experience.",
+    "experience": "Entry level; placements and lab work welcome.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-cloud-007",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "IT_SOFTWARE",
+    "experience_level": "ENTRY_LEVEL",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-tech-009",
+    "title": "QA Automation Engineer",
+    "company": "Clearpath Software (Demo)",
+    "location": "Leeds, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 27,000-32,000",
+    "deadline": "2026-12-12",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-tech-009",
+    "description": "Automate regression testing for a Leeds software house serving logistics customers.",
+    "requirements": [
+      "Degree in computer science or a related field",
+      "Familiarity with software testing concepts"
+    ],
+    "responsibilities": [
+      "Write automated test suites",
+      "Maintain test environments",
+      "Report quality metrics"
+    ],
+    "required_skills": [
+      "Python",
+      "Selenium",
+      "Git"
+    ],
+    "preferred_skills": [
+      "Playwright",
+      "CI/CD",
+      "SQL"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": null,
+    "education": "Degree in computer science or a related field.",
+    "experience": "0-2 years; testing coursework and projects welcome.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-tech-009",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": null
+    },
+    "category": "IT_SOFTWARE",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-tech-011",
+    "title": "Full Stack Developer",
+    "company": "Redwood Digital (Demo)",
+    "location": "London, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 32,000-38,000",
+    "deadline": "2026-11-01",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-tech-011",
+    "description": "Deliver end-to-end features across frontend and backend for a London digital agency's client portfolio.",
+    "requirements": [
+      "Degree in computer science or a related field",
+      "Experience building web applications"
+    ],
+    "responsibilities": [
+      "Deliver full-stack features",
+      "Write automated tests",
+      "Support client demos"
+    ],
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "SQL"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We are able to sponsor eligible candidates for this role.",
+    "education": "Degree in computer science or a related field.",
+    "experience": "0-2 years; portfolio projects are strong evidence.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-tech-011",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "IT_SOFTWARE",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-tech-013",
+    "title": "Mobile Software Developer",
+    "company": "Northwind Apps (Demo)",
+    "location": "Nottingham, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 27,000-33,000",
+    "deadline": "2026-11-25",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-tech-013",
+    "description": "Build cross-platform mobile apps for a remote-first Nottingham application studio.",
+    "requirements": [
+      "Degree in computer science or a related field",
+      "Fundamentals of mobile development"
+    ],
+    "responsibilities": [
+      "Implement mobile features",
+      "Write unit tests",
+      "Triage app store feedback"
+    ],
+    "required_skills": [
+      "JavaScript",
+      "React Native",
+      "Git"
+    ],
+    "preferred_skills": [
+      "iOS",
+      "Android",
+      "Figma"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We may consider sponsorship for exceptional candidates.",
+    "education": "Degree in computer science or a related field.",
+    "experience": "0-2 years; app projects and hackathons welcome.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-tech-013",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "IT_SOFTWARE",
+    "experience_level": "GRADUATE",
+    "work_mode": "REMOTE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-tech-015",
+    "title": "Software Engineering Co-op",
+    "company": "Vector Harbor (Demo)",
+    "location": "Cambridge, United Kingdom",
+    "employment_type": "Fixed Term (12 months)",
+    "salary": "GBP 25,000",
+    "deadline": "2027-01-10",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-tech-015",
+    "description": "A 12-month industrial placement on a data-engineering team that regularly converts to a graduate offer.",
+    "requirements": [
+      "Penultimate-year computer science or related degree",
+      "Academic exposure to programming"
+    ],
+    "responsibilities": [
+      "Support platform migrations",
+      "Automate internal tooling",
+      "Shadow senior engineers"
+    ],
+    "required_skills": [
+      "Python",
+      "Git",
+      "SQL"
+    ],
+    "preferred_skills": [
+      "TypeScript",
+      "Docker"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": null,
+    "education": "Penultimate-year computer science or related degree.",
+    "experience": "Placement year; prior work experience not required.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-tech-015",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": null
+    },
+    "category": "IT_SOFTWARE",
+    "experience_level": "PLACEMENT",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-it-017",
+    "title": "Junior Software Developer",
+    "company": "Nottingham Forge Systems (Demo)",
+    "location": "Nottingham, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 26,000-31,000",
+    "deadline": "2026-10-31",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-it-017",
+    "description": "Develop business systems for manufacturing clients of a long-established Nottingham software house.",
+    "requirements": [
+      "Degree in computer science or equivalent experience",
+      "Working knowledge of a backend language"
+    ],
+    "responsibilities": [
+      "Build business modules",
+      "Fix bugs with senior review",
+      "Document APIs"
+    ],
+    "required_skills": [
+      "Java",
+      "SQL",
+      "Git"
+    ],
+    "preferred_skills": [
+      "Spring",
+      "JavaScript",
+      "Docker"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We will sponsor eligible candidates.",
+    "education": "Degree in computer science or equivalent experience.",
+    "experience": "0-2 years; placement and project evidence welcome.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-it-017",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "IT_SOFTWARE",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-biz-018",
+    "title": "Graduate Business Analyst",
+    "company": "Birmingham Consulting Partners (Demo)",
+    "location": "Birmingham, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 27,000-32,000",
+    "deadline": "2026-11-10",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-biz-018",
+    "description": "Work on client projects capturing requirements and turning business problems into deliverable solutions.",
+    "requirements": [
+      "Degree in business, economics, or a related field",
+      "Strong analytical and written communication"
+    ],
+    "responsibilities": [
+      "Capture requirements",
+      "Facilitate workshops",
+      "Produce process documentation"
+    ],
+    "required_skills": [
+      "Excel",
+      "Stakeholder management",
+      "Data analysis"
+    ],
+    "preferred_skills": [
+      "SQL",
+      "Power BI",
+      "Visio"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We are able to sponsor eligible candidates for this role.",
+    "education": "Degree in business, economics, or a related field.",
+    "experience": "0-2 years; placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-biz-018",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "BUSINESS",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-biz-025",
+    "title": "Graduate Business Analyst",
+    "company": "Humber Business Group (Demo)",
+    "location": "Leeds, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 27,000-32,000",
+    "deadline": "2026-11-28",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-biz-025",
+    "description": "Support process improvement and systems projects for Yorkshire-based industrial clients.",
+    "requirements": [
+      "Degree in business, management, or a related field",
+      "Confident working with spreadsheets"
+    ],
+    "responsibilities": [
+      "Map current processes",
+      "Run requirements sessions",
+      "Support testing and rollout"
+    ],
+    "required_skills": [
+      "Excel",
+      "Process mapping",
+      "Communication"
+    ],
+    "preferred_skills": [
+      "SQL",
+      "Power BI",
+      "Jira"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We may consider sponsorship for exceptional candidates.",
+    "education": "Degree in business, management, or a related field.",
+    "experience": "0-2 years; internships and placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-biz-025",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "BUSINESS",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-biz-026",
+    "title": "Junior Business Operations Analyst",
+    "company": "Trent Mercantile Co. (Demo)",
+    "location": "Nottingham, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 25,000-30,000",
+    "deadline": "2026-12-08",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-biz-026",
+    "description": "Analyses trading and operations data for a Nottingham merchant business to support daily decisions.",
+    "requirements": [
+      "Degree in business, economics, or a related field",
+      "High numeracy"
+    ],
+    "responsibilities": [
+      "Prepare margin reports",
+      "Track KPIs",
+      "Support budgeting cycles"
+    ],
+    "required_skills": [
+      "Excel",
+      "Data analysis",
+      "Attention to detail"
+    ],
+    "preferred_skills": [
+      "SQL",
+      "Power BI",
+      "SAP"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": null,
+    "education": "Degree in business, economics, accounting, or a related field.",
+    "experience": "0-2 years; placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-biz-026",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": null
+    },
+    "category": "BUSINESS",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-biz-027",
+    "title": "Graduate Strategy Analyst",
+    "company": "Clyde & Merrick Consultants (Demo)",
+    "location": "Glasgow, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 28,000-33,000",
+    "deadline": "2026-12-15",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-biz-027",
+    "description": "Support strategy and market analysis for Scottish public and private sector organisations.",
+    "requirements": [
+      "Degree in economics, business, or a related field",
+      "Clear written communication"
+    ],
+    "responsibilities": [
+      "Research markets",
+      "Build financial models",
+      "Support board-level presentations"
+    ],
+    "required_skills": [
+      "Excel",
+      "Financial modelling",
+      "Research"
+    ],
+    "preferred_skills": [
+      "Python",
+      "Power BI",
+      "SQL"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We may consider sponsorship for exceptional candidates.",
+    "education": "Degree in economics, business, or a related field.",
+    "experience": "0-2 years; placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-biz-027",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "BUSINESS",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-biz-028",
+    "title": "Business Graduate Programme",
+    "company": "Avon & Lang (Demo)",
+    "location": "Bristol, United Kingdom",
+    "employment_type": "Graduate scheme (24 months)",
+    "salary": "GBP 28,000-33,000",
+    "deadline": "2027-01-08",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-biz-028",
+    "description": "Rotate through commercial, operations, and project teams in a Bristol business services firm.",
+    "requirements": [
+      "Degree in any discipline",
+      "Strong communication and initiative"
+    ],
+    "responsibilities": [
+      "Complete three six-month rotations",
+      "Own a commercial workstream",
+      "Present outcomes to leadership"
+    ],
+    "required_skills": [
+      "Excel",
+      "Communication",
+      "Problem solving"
+    ],
+    "preferred_skills": [
+      "SQL",
+      "Power BI",
+      "Project management"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We are able to sponsor eligible candidates for this role.",
+    "education": "Degree in any discipline (2:1 or equivalent).",
+    "experience": "Graduate entry; internships welcome.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-biz-028",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "BUSINESS",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-biz-029",
+    "title": "Sales Operations Analyst",
+    "company": "Peak District Retail Group (Demo)",
+    "location": "Sheffield, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 25,000-29,000",
+    "deadline": "2026-11-20",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-biz-029",
+    "description": "Analyse sales performance and support the retail planning cycle for a Sheffield-based retail group.",
+    "requirements": [
+      "Degree in business, marketing, or a related field",
+      "Comfortable with spreadsheets"
+    ],
+    "responsibilities": [
+      "Maintain sales dashboards",
+      "Analyse promotions",
+      "Support monthly reviews"
+    ],
+    "required_skills": [
+      "Excel",
+      "Data analysis",
+      "Retail KPIs"
+    ],
+    "preferred_skills": [
+      "Power BI",
+      "SQL",
+      "Tableau"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": null,
+    "education": "Degree in business, marketing, or a related field.",
+    "experience": "0-2 years; placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-biz-029",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": null
+    },
+    "category": "BUSINESS",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-biz-030",
+    "title": "Commercial Graduate Analyst",
+    "company": "Caledonian Ventures (Demo)",
+    "location": "Edinburgh, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 27,000-32,000",
+    "deadline": "2026-12-20",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-biz-030",
+    "description": "Support valuation and market analysis for the investment team of an Edinburgh venture firm.",
+    "requirements": [
+      "Degree in business, finance, or economics",
+      "Strong numeracy"
+    ],
+    "responsibilities": [
+      "Prepare company research",
+      "Build valuation models",
+      "Track portfolio metrics"
+    ],
+    "required_skills": [
+      "Excel",
+      "Financial modelling",
+      "Research"
+    ],
+    "preferred_skills": [
+      "SQL",
+      "Power BI",
+      "Python"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We may consider sponsorship for exceptional candidates.",
+    "education": "Degree in business, finance, or economics.",
+    "experience": "0-2 years; placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-biz-030",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "BUSINESS",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-biz-031",
+    "title": "Business Insights Assistant",
+    "company": "Fenland Consumer Group (Demo)",
+    "location": "Cambridge, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 26,000-30,000",
+    "deadline": "2027-01-15",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-biz-031",
+    "description": "Support consumer research and insights reporting for a Cambridge consumer goods group.",
+    "requirements": [
+      "Degree in any discipline with strong research skills",
+      "Excellent organisation"
+    ],
+    "responsibilities": [
+      "Clean survey data",
+      "Prepare insight summaries",
+      "Maintain research libraries"
+    ],
+    "required_skills": [
+      "Excel",
+      "Data analysis",
+      "Written communication"
+    ],
+    "preferred_skills": [
+      "SPSS",
+      "Power BI",
+      "Python"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "Candidates must have the right to work in the UK; we do not sponsor for this role.",
+    "education": "Degree in any discipline with demonstrable research skills.",
+    "experience": "Entry level; placement and internship experience welcome.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-biz-031",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "BUSINESS",
+    "experience_level": "ENTRY_LEVEL",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-hr-019",
+    "title": "HR Graduate Scheme Associate",
+    "company": "Manchester People Group (Demo)",
+    "location": "Manchester, United Kingdom",
+    "employment_type": "Graduate scheme (18 months)",
+    "salary": "GBP 26,000-30,000",
+    "deadline": "2026-11-10",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-hr-019",
+    "description": "Rotate across recruitment, employee relations, and people analytics in a Manchester HR services firm.",
+    "requirements": [
+      "Degree in any discipline",
+      "An interest in people and employment practices"
+    ],
+    "responsibilities": [
+      "Support recruitment campaigns",
+      "Assist with onboarding",
+      "Prepare people dashboards"
+    ],
+    "required_skills": [
+      "Communication",
+      "Excel",
+      "Attention to detail"
+    ],
+    "preferred_skills": [
+      "HR systems",
+      "Data analysis",
+      "Employment law awareness"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We are able to sponsor eligible candidates for this role.",
+    "education": "Degree in any discipline (2:1 or equivalent).",
+    "experience": "Graduate entry; internships welcome.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-hr-019",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "HR",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-hr-032",
+    "title": "HR Assistant (Graduate)",
+    "company": "Thames People Partners (Demo)",
+    "location": "London, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 28,000-32,000",
+    "deadline": "2026-11-25",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-hr-032",
+    "description": "Provide HR operational support across recruitment, contracts, and employee records for a London firm.",
+    "requirements": [
+      "Degree in HR, business, or a related field",
+      "High attention to detail"
+    ],
+    "responsibilities": [
+      "Maintain employee records",
+      "Support recruitment processes",
+      "Respond to employee queries"
+    ],
+    "required_skills": [
+      "Communication",
+      "Excel",
+      "Organisation"
+    ],
+    "preferred_skills": [
+      "HR systems",
+      "Employment law awareness"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We may consider sponsorship for exceptional candidates.",
+    "education": "Degree in HR, business, or a related field.",
+    "experience": "0-2 years; placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-hr-032",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "HR",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-hr-033",
+    "title": "Graduate Talent Acquisition Associate",
+    "company": "Northbridge People (Demo)",
+    "location": "Leeds, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 26,000-30,000",
+    "deadline": "2026-12-05",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-hr-033",
+    "description": "Support end-to-end graduate and early-career recruitment for a Yorkshire professional services firm.",
+    "requirements": [
+      "Degree in any discipline",
+      "Strong interpersonal skills"
+    ],
+    "responsibilities": [
+      "Screen applications",
+      "Coordinate interview days",
+      "Analyse hiring funnel data"
+    ],
+    "required_skills": [
+      "Communication",
+      "Excel",
+      "Organisation"
+    ],
+    "preferred_skills": [
+      "ATS",
+      "Data analysis",
+      "Social recruiting"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": null,
+    "education": "Degree in any discipline.",
+    "experience": "0-2 years; internships and placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-hr-033",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": null
+    },
+    "category": "HR",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-hr-034",
+    "title": "People Operations Graduate",
+    "company": "Caledonia People Group (Demo)",
+    "location": "Edinburgh, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 26,000-31,000",
+    "deadline": "2026-12-12",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-hr-034",
+    "description": "Support employee lifecycle operations from onboarding to performance review cycles in a Scottish services firm.",
+    "requirements": [
+      "Degree in HR, business, or a related field",
+      "Organised and discreet"
+    ],
+    "responsibilities": [
+      "Manage onboarding",
+      "Maintain HRIS records",
+      "Support performance review cycles"
+    ],
+    "required_skills": [
+      "Communication",
+      "HRIS",
+      "Excel"
+    ],
+    "preferred_skills": [
+      "Data protection awareness",
+      "Employment law awareness"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We may consider sponsorship for exceptional candidates.",
+    "education": "Degree in HR, business, or a related field.",
+    "experience": "0-2 years; placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-hr-034",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "HR",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-hr-035",
+    "title": "HR Data & Systems Assistant",
+    "company": "Midlands People Services (Demo)",
+    "location": "Birmingham, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 26,000-30,000",
+    "deadline": null,
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-hr-035",
+    "description": "Keep HR systems and people data accurate across a multi-site Midlands employer.",
+    "requirements": [
+      "Degree in any discipline",
+      "Comfortable with spreadsheets and systems"
+    ],
+    "responsibilities": [
+      "Maintain HRIS data",
+      "Produce monthly headcount reports",
+      "Support system upgrades"
+    ],
+    "required_skills": [
+      "Excel",
+      "Data analysis",
+      "Attention to detail"
+    ],
+    "preferred_skills": [
+      "SQL",
+      "Power BI",
+      "HRIS"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": null,
+    "education": "Degree in any discipline.",
+    "experience": "0-2 years; placement and internship welcome.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-hr-035",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": null,
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": null
+    },
+    "category": "HR",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-hr-036",
+    "title": "Learning & Development Graduate",
+    "company": "Severn People Consultancy (Demo)",
+    "location": "Bristol, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 26,000-31,000",
+    "deadline": "2026-11-30",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-hr-036",
+    "description": "Support the design and delivery of training programmes for a Bristol people consultancy's clients.",
+    "requirements": [
+      "Degree in any discipline",
+      "Strong facilitation and writing skills"
+    ],
+    "responsibilities": [
+      "Design learning materials",
+      "Coordinate training events",
+      "Evaluate feedback surveys"
+    ],
+    "required_skills": [
+      "Communication",
+      "Course design",
+      "Excel"
+    ],
+    "preferred_skills": [
+      "LMS",
+      "Power BI",
+      "Survey tools"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We are able to sponsor eligible candidates for this role.",
+    "education": "Degree in any discipline.",
+    "experience": "0-2 years; internships welcome.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-hr-036",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "HR",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-hr-037",
+    "title": "HR Graduate Internship",
+    "company": "Clyde People Co. (Demo)",
+    "location": "Glasgow, United Kingdom",
+    "employment_type": "Internship (12 weeks)",
+    "salary": "GBP 24,000 pro-rata",
+    "deadline": "2027-02-15",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-hr-037",
+    "description": "A summer internship supporting the full HR lifecycle for a Glasgow people-services firm.",
+    "requirements": [
+      "Currently studying HR, business, or a related degree"
+    ],
+    "responsibilities": [
+      "Support recruitment admin",
+      "Update employee records",
+      "Help prepare HR reports"
+    ],
+    "required_skills": [
+      "Communication",
+      "Excel",
+      "Organisation"
+    ],
+    "preferred_skills": [
+      "HRIS",
+      "Data analysis"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": null,
+    "education": "Currently studying HR, business, or a related degree.",
+    "experience": "No prior work experience required.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-hr-037",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": null
+    },
+    "category": "HR",
+    "experience_level": "INTERNSHIP",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-hr-038",
+    "title": "People Analytics Assistant",
+    "company": "Riverside People Data (Demo)",
+    "location": "Nottingham, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 25,000-29,000",
+    "deadline": "2026-12-01",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-hr-038",
+    "description": "Turn people data into reports that guide hiring, retention, and engagement decisions.",
+    "requirements": [
+      "Degree in any discipline with strong numeracy",
+      "Comfortable analysing datasets"
+    ],
+    "responsibilities": [
+      "Prepare people dashboards",
+      "Clean HR datasets",
+      "Answer ad-hoc data requests"
+    ],
+    "required_skills": [
+      "Excel",
+      "SQL",
+      "Data analysis"
+    ],
+    "preferred_skills": [
+      "Power BI",
+      "Python"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We may consider sponsorship for exceptional candidates.",
+    "education": "Degree in any discipline with demonstrable numeracy.",
+    "experience": "Entry level; placement and internship experience welcome.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-hr-038",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "HR",
+    "experience_level": "ENTRY_LEVEL",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-fin-039",
+    "title": "Graduate Financial Analyst",
+    "company": "Avonbrook Asset Management (Demo)",
+    "location": "Bristol, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 28,000-34,000",
+    "deadline": "2026-11-18",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-fin-039",
+    "description": "Support fund performance reporting and investment research for a Bristol asset manager.",
+    "requirements": [
+      "Degree in finance, economics, accounting, or a related field",
+      "Strong Excel skills"
+    ],
+    "responsibilities": [
+      "Prepare fund reports",
+      "Run performance calculations",
+      "Support investment research"
+    ],
+    "required_skills": [
+      "Excel",
+      "Financial analysis",
+      "Attention to detail"
+    ],
+    "preferred_skills": [
+      "Bloomberg",
+      "Python",
+      "SQL"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We may consider sponsorship for exceptional candidates.",
+    "education": "Degree in finance, economics, accounting, or a related field.",
+    "experience": "0-2 years; placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-fin-039",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "FINANCE",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-fin-040",
+    "title": "Finance Graduate Scheme",
+    "company": "Calder & Wade Finance (Demo)",
+    "location": "London, United Kingdom",
+    "employment_type": "Graduate scheme (24 months)",
+    "salary": "GBP 30,000-36,000",
+    "deadline": "2026-11-05",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-fin-040",
+    "description": "Rotate across corporate finance, risk, and client reporting in a London financial services firm.",
+    "requirements": [
+      "Degree in any discipline with strong numeracy",
+      "Interest in financial markets"
+    ],
+    "responsibilities": [
+      "Rotate across finance teams",
+      "Support financial reporting",
+      "Obtain professional qualifications (e.g., CIMA/CFA Pathway)"
+    ],
+    "required_skills": [
+      "Excel",
+      "Financial analysis",
+      "Communication"
+    ],
+    "preferred_skills": [
+      "SQL",
+      "Power BI",
+      "Python"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We are able to sponsor eligible candidates for this role.",
+    "education": "Degree in any discipline with demonstrable numeracy (2:1 or equivalent).",
+    "experience": "Graduate entry; internships welcome.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-fin-040",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "FINANCE",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-fin-041",
+    "title": "Graduate Risk Analyst",
+    "company": "Pennine Risk Partners (Demo)",
+    "location": "Leeds, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 27,000-32,000",
+    "deadline": "2026-12-10",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-fin-041",
+    "description": "Support credit and operational risk reporting for a Leeds-based financial services group.",
+    "requirements": [
+      "Degree in finance, economics, mathematics, or a related field",
+      "Analytical mindset"
+    ],
+    "responsibilities": [
+      "Prepare risk reports",
+      "Monitor risk limits",
+      "Support stress-testing exercises"
+    ],
+    "required_skills": [
+      "Excel",
+      "Risk analysis",
+      "Data analysis"
+    ],
+    "preferred_skills": [
+      "SQL",
+      "Python",
+      "Power BI"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": null,
+    "education": "Degree in finance, economics, mathematics, or a related field.",
+    "experience": "0-2 years; placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-fin-041",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": null
+    },
+    "category": "FINANCE",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-fin-042",
+    "title": "Treasury & Accounting Graduate",
+    "company": "Meridian Trust Bank (Demo)",
+    "location": "Edinburgh, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 28,000-33,000",
+    "deadline": "2026-11-22",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-fin-042",
+    "description": "Support treasury operations and management accounting for a Scottish banking group.",
+    "requirements": [
+      "Degree in accounting, finance, or a related field",
+      "High attention to detail"
+    ],
+    "responsibilities": [
+      "Prepare reconciliation reports",
+      "Support cash flow forecasting",
+      "Assist month-end close"
+    ],
+    "required_skills": [
+      "Excel",
+      "Accounting",
+      "Reconciliation"
+    ],
+    "preferred_skills": [
+      "SQL",
+      "SAP",
+      "Power BI"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We will sponsor eligible candidates.",
+    "education": "Degree in accounting, finance, or a related field (or studying towards a professional qualification).",
+    "experience": "0-2 years; placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-fin-042",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "FINANCE",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-fin-043",
+    "title": "Credit Analyst (Graduate)",
+    "company": "Clyde Capital (Demo)",
+    "location": "Glasgow, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 27,000-32,000",
+    "deadline": "2026-12-14",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-fin-043",
+    "description": "Assess credit applications and support portfolio monitoring for a Glasgow commercial lender.",
+    "requirements": [
+      "Degree in finance, economics, business, or a related field",
+      "Strong analytical writing"
+    ],
+    "responsibilities": [
+      "Prepare credit memos",
+      "Monitor covenant compliance",
+      "Support portfolio reviews"
+    ],
+    "required_skills": [
+      "Excel",
+      "Financial analysis",
+      "Written communication"
+    ],
+    "preferred_skills": [
+      "SQL",
+      "Credit risk tools",
+      "Power BI"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": null,
+    "education": "Degree in finance, economics, business, or a related field.",
+    "experience": "0-2 years; placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-fin-043",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": null
+    },
+    "category": "FINANCE",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-fin-044",
+    "title": "Finance Operations Graduate",
+    "company": "Welland Finance Group (Demo)",
+    "location": "Nottingham, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 25,000-30,000",
+    "deadline": "2026-12-20",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-fin-044",
+    "description": "Keep day-to-day finance operations running across billing, collections, and reporting.",
+    "requirements": [
+      "Degree in any discipline with strong numeracy",
+      "Organised and process-driven"
+    ],
+    "responsibilities": [
+      "Process invoices and payments",
+      "Reconcile accounts",
+      "Support audit preparation"
+    ],
+    "required_skills": [
+      "Excel",
+      "Accounting",
+      "Attention to detail"
+    ],
+    "preferred_skills": [
+      "ERP",
+      "SQL",
+      "Power BI"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We may consider sponsorship for exceptional candidates.",
+    "education": "Degree in any discipline with demonstrable numeracy.",
+    "experience": "Entry level; placement and internship experience welcome.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-fin-044",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "FINANCE",
+    "experience_level": "ENTRY_LEVEL",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-fin-045",
+    "title": "Banking Graduate Programme",
+    "company": "Trent Valley Bank (Demo)",
+    "location": "Birmingham, United Kingdom",
+    "employment_type": "Graduate scheme (18 months)",
+    "salary": "GBP 27,000-32,000",
+    "deadline": "2026-12-05",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-fin-045",
+    "description": "Rotate across retail banking, credit, and finance operations for a Midlands bank.",
+    "requirements": [
+      "Degree in any discipline",
+      "Strong customer and numeracy skills"
+    ],
+    "responsibilities": [
+      "Rotate across banking teams",
+      "Support credit decisions",
+      "Learn regulatory basics (SM&CR)"
+    ],
+    "required_skills": [
+      "Excel",
+      "Communication",
+      "Financial analysis"
+    ],
+    "preferred_skills": [
+      "SQL",
+      "Power BI",
+      "Risk awareness"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We are able to sponsor eligible candidates for this role.",
+    "education": "Degree in any discipline (2:1 or equivalent).",
+    "experience": "Graduate entry; internships welcome.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-fin-045",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "FINANCE",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-fin-046",
+    "title": "Investment Operations Intern",
+    "company": "Sheffield Mercantile Finance (Demo)",
+    "location": "Sheffield, United Kingdom",
+    "employment_type": "Internship (12 weeks)",
+    "salary": "GBP 24,000 pro-rata",
+    "deadline": "2027-02-20",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-fin-046",
+    "description": "A summer internship supporting investment operations, trade settlement, and client reporting.",
+    "requirements": [
+      "Currently studying finance, economics, or a related degree"
+    ],
+    "responsibilities": [
+      "Support trade confirmations",
+      "Reconcile client statements",
+      "Assist with KYC checks"
+    ],
+    "required_skills": [
+      "Excel",
+      "Attention to detail",
+      "Financial basics"
+    ],
+    "preferred_skills": [
+      "Bloomberg",
+      "SQL"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": null,
+    "education": "Currently studying finance, economics, or a related degree.",
+    "experience": "No prior work experience required.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-fin-046",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": null
+    },
+    "category": "FINANCE",
+    "experience_level": "INTERNSHIP",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-data-014",
+    "title": "Marketing Data Analyst",
+    "company": "Brightline Research (Demo)",
+    "location": "London, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 28,000-33,000",
+    "deadline": "2026-11-27",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-data-014",
+    "description": "Analyse campaign and brand performance to guide media spend for a London marketing research firm.",
+    "requirements": [
+      "Degree in marketing, business, statistics, or a related field",
+      "Comfortable with analytics tools"
+    ],
+    "responsibilities": [
+      "Measure campaign performance",
+      "Build marketing dashboards",
+      "Run segmentation analyses"
+    ],
+    "required_skills": [
+      "Excel",
+      "Data analysis",
+      "Google Analytics"
+    ],
+    "preferred_skills": [
+      "SQL",
+      "Power BI",
+      "Python"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We may consider sponsorship for exceptional candidates.",
+    "education": "Degree in marketing, business, statistics, or a related field.",
+    "experience": "0-2 years; internships and placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-data-014",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "MARKETING",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-mkt-047",
+    "title": "Graduate Marketing Executive",
+    "company": "Thameside Marketing Co. (Demo)",
+    "location": "London, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 27,000-32,000",
+    "deadline": "2026-11-12",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-mkt-047",
+    "description": "Support campaign planning, content coordination, and agency briefs for a London marketing company.",
+    "requirements": [
+      "Degree in marketing, communications, or a related field",
+      "Strong written communication"
+    ],
+    "responsibilities": [
+      "Coordinate campaign assets",
+      "Draft marketing copy",
+      "Track campaign calendars"
+    ],
+    "required_skills": [
+      "Communication",
+      "Content writing",
+      "Organisation"
+    ],
+    "preferred_skills": [
+      "SEO",
+      "Google Ads",
+      "Canva"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We are able to sponsor eligible candidates for this role.",
+    "education": "Degree in marketing, communications, or a related field.",
+    "experience": "0-2 years; placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-mkt-047",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "MARKETING",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-mkt-048",
+    "title": "Junior Digital Marketing Analyst",
+    "company": "Northbank Digital (Demo)",
+    "location": "Manchester, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 26,000-31,000",
+    "deadline": "2026-12-08",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-mkt-048",
+    "description": "Measure paid media and website performance for a Manchester digital marketing agency.",
+    "requirements": [
+      "Degree in marketing, business, or a related field",
+      "Interest in digital channels"
+    ],
+    "responsibilities": [
+      "Report on PPC performance",
+      "Monitor website analytics",
+      "Support A/B test readouts"
+    ],
+    "required_skills": [
+      "Excel",
+      "Google Analytics",
+      "Data analysis"
+    ],
+    "preferred_skills": [
+      "SQL",
+      "Power BI",
+      "GA4"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": null,
+    "education": "Degree in marketing, business, or a related field.",
+    "experience": "0-2 years; internships welcome.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-mkt-048",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": null
+    },
+    "category": "MARKETING",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-mkt-049",
+    "title": "Marketing & Communications Graduate",
+    "company": "Yorkshire Made (Demo)",
+    "location": "Leeds, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 26,000-30,000",
+    "deadline": "2026-11-30",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-mkt-049",
+    "description": "Support brand campaigns and internal communications for a Yorkshire-based consumer brand.",
+    "requirements": [
+      "Degree in marketing, communications, or a related field",
+      "Creative and organised"
+    ],
+    "responsibilities": [
+      "Draft brand content",
+      "Coordinate photoshoots",
+      "Measure campaign feedback"
+    ],
+    "required_skills": [
+      "Communication",
+      "Content writing",
+      "Organisation"
+    ],
+    "preferred_skills": [
+      "Canva",
+      "SEO",
+      "Google Analytics"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We may consider sponsorship for exceptional candidates.",
+    "education": "Degree in marketing, communications, or a related field.",
+    "experience": "0-2 years; placements welcome.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-mkt-049",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "MARKETING",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-mkt-050",
+    "title": "Social Media & Content Graduate",
+    "company": "Caledonian Media Group (Demo)",
+    "location": "Edinburgh, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 26,000-30,000",
+    "deadline": "2026-12-15",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-mkt-050",
+    "description": "Grow branded channels and produce content for a Scottish media group's portfolio.",
+    "requirements": [
+      "Degree in marketing, media, or a related field",
+      "Strong written and visual communication"
+    ],
+    "responsibilities": [
+      "Plan content calendars",
+      "Produce social posts",
+      "Report channel performance"
+    ],
+    "required_skills": [
+      "Communication",
+      "Content writing",
+      "Canva"
+    ],
+    "preferred_skills": [
+      "Social media tools",
+      "Google Analytics",
+      "SEO"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": null,
+    "education": "Degree in marketing, media, or a related field.",
+    "experience": "0-2 years; internships welcome.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-mkt-050",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": null
+    },
+    "category": "MARKETING",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-mkt-051",
+    "title": "Brand Marketing Assistant",
+    "company": "Midlands Retail Group (Demo)",
+    "location": "Birmingham, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 25,000-29,000",
+    "deadline": "2026-12-01",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-mkt-051",
+    "description": "Support national retail brand campaigns, store signage, and promotional compliance.",
+    "requirements": [
+      "Degree in marketing, business, or a related field",
+      "Organised and detail-oriented"
+    ],
+    "responsibilities": [
+      "Coordinate campaign rollouts",
+      "Brief stores on promotions",
+      "Track campaign assets"
+    ],
+    "required_skills": [
+      "Communication",
+      "Organisation",
+      "Excel"
+    ],
+    "preferred_skills": [
+      "Canva",
+      "SEO",
+      "Google Analytics"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We are able to sponsor eligible candidates for this role.",
+    "education": "Degree in marketing, business, or a related field.",
+    "experience": "0-2 years; placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-mkt-051",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "MARKETING",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-mkt-052",
+    "title": "Growth Marketing Intern",
+    "company": "Severn Startups (Demo)",
+    "location": "Bristol, United Kingdom",
+    "employment_type": "Internship (12 weeks)",
+    "salary": "GBP 23,500 pro-rata",
+    "deadline": "2027-02-10",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-mkt-052",
+    "description": "Run experiments across acquisition channels for a portfolio of Bristol startup clients.",
+    "requirements": [
+      "Currently studying marketing, business, or a related degree"
+    ],
+    "responsibilities": [
+      "Run channel experiments",
+      "Monitor campaign metrics",
+      "Document what worked"
+    ],
+    "required_skills": [
+      "Communication",
+      "Excel",
+      "Google Analytics"
+    ],
+    "preferred_skills": [
+      "SQL",
+      "SEO",
+      "Social media tools"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": null,
+    "education": "Currently studying marketing, business, or a related degree.",
+    "experience": "No prior work experience required.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-mkt-052",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": null
+    },
+    "category": "MARKETING",
+    "experience_level": "INTERNSHIP",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-mkt-053",
+    "title": "Campaign Analytics Assistant",
+    "company": "Clyde Media (Demo)",
+    "location": "Glasgow, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 25,000-29,000",
+    "deadline": "2027-01-18",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-mkt-053",
+    "description": "Turn campaign results into clear reporting for a Glasgow media planning agency.",
+    "requirements": [
+      "Degree in any discipline with strong numeracy",
+      "Comfortable with analytics dashboards"
+    ],
+    "responsibilities": [
+      "Compile campaign reports",
+      "Refresh dashboards",
+      "Answer data requests"
+    ],
+    "required_skills": [
+      "Excel",
+      "Data analysis",
+      "Google Analytics"
+    ],
+    "preferred_skills": [
+      "Power BI",
+      "SQL"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We may consider sponsorship for exceptional candidates.",
+    "education": "Degree in any discipline with demonstrable numeracy.",
+    "experience": "Entry level; placement and internship experience welcome.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-mkt-053",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "MARKETING",
+    "experience_level": "ENTRY_LEVEL",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-ops-054",
+    "title": "Graduate Operations Analyst",
+    "company": "Humber Logistics Group (Demo)",
+    "location": "Leeds, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 26,000-31,000",
+    "deadline": "2026-11-24",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-ops-054",
+    "description": "Analyse delivery performance and support fleet planning for a Yorkshire logistics operator.",
+    "requirements": [
+      "Degree in any discipline with strong numeracy",
+      "Comfortable with data and spreadsheets"
+    ],
+    "responsibilities": [
+      "Model delivery routes",
+      "Report on-time performance",
+      "Support cost analysis"
+    ],
+    "required_skills": [
+      "Excel",
+      "Data analysis",
+      "Problem solving"
+    ],
+    "preferred_skills": [
+      "SQL",
+      "Power BI",
+      "Python"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We may consider sponsorship for exceptional candidates.",
+    "education": "Degree in any discipline with demonstrable numeracy.",
+    "experience": "0-2 years; placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-ops-054",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "OPERATIONS",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-ops-055",
+    "title": "Supply Chain Graduate",
+    "company": "Trent Distribution Co. (Demo)",
+    "location": "Nottingham, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 26,000-30,000",
+    "deadline": "2026-12-03",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-ops-055",
+    "description": "Support planning, purchasing, and stock control across a Midlands distribution business.",
+    "requirements": [
+      "Degree in business, logistics, or a related field",
+      "Organised and analytical"
+    ],
+    "responsibilities": [
+      "Plan stock replenishment",
+      "Track supplier performance",
+      "Support continuous improvement"
+    ],
+    "required_skills": [
+      "Excel",
+      "Supply chain basics",
+      "Communication"
+    ],
+    "preferred_skills": [
+      "SQL",
+      "ERP",
+      "Power BI"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We are able to sponsor eligible candidates for this role.",
+    "education": "Degree in business, logistics, or a related field.",
+    "experience": "0-2 years; placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-ops-055",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "OPERATIONS",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-ops-056",
+    "title": "Operations Graduate Programme",
+    "company": "Caledonian Rail Services (Demo)",
+    "location": "Glasgow, United Kingdom",
+    "employment_type": "Graduate scheme (18 months)",
+    "salary": "GBP 27,000-31,000",
+    "deadline": "2026-12-12",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-ops-056",
+    "description": "Rotate across scheduling, customer operations, and performance teams for a Scottish rail services firm.",
+    "requirements": [
+      "Degree in any discipline",
+      "Interest in service operations"
+    ],
+    "responsibilities": [
+      "Rotate across operations teams",
+      "Support performance reporting",
+      "Help with incident reviews"
+    ],
+    "required_skills": [
+      "Excel",
+      "Communication",
+      "Problem solving"
+    ],
+    "preferred_skills": [
+      "Power BI",
+      "SQL",
+      "Lean basics"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": null,
+    "education": "Degree in any discipline (2:1 or equivalent).",
+    "experience": "Graduate entry; internships welcome.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-ops-056",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": null
+    },
+    "category": "OPERATIONS",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-ops-057",
+    "title": "Junior Procurement Analyst",
+    "company": "Pennine Procurement Partners (Demo)",
+    "location": "Sheffield, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 25,000-29,000",
+    "deadline": "2026-12-18",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-ops-057",
+    "description": "Support category sourcing and spend analysis for a Sheffield-based procurement consultancy.",
+    "requirements": [
+      "Degree in any discipline",
+      "Strong spreadsheet skills"
+    ],
+    "responsibilities": [
+      "Analyse spend data",
+      "Prepare tender documentation",
+      "Support supplier reviews"
+    ],
+    "required_skills": [
+      "Excel",
+      "Data analysis",
+      "Communication"
+    ],
+    "preferred_skills": [
+      "SQL",
+      "Power BI",
+      "e-Procurement tools"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We may consider sponsorship for exceptional candidates.",
+    "education": "Degree in any discipline.",
+    "experience": "Entry level; placement and internship experience welcome.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-ops-057",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "OPERATIONS",
+    "experience_level": "ENTRY_LEVEL",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-ops-058",
+    "title": "Service Operations Graduate",
+    "company": "Thames Health Operations (Demo)",
+    "location": "London, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 29,000-34,000",
+    "deadline": "2026-12-20",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-ops-058",
+    "description": "Support service improvement projects within the operations team of a health services provider.",
+    "requirements": [
+      "Degree in any discipline",
+      "Interest in service improvement and public sector"
+    ],
+    "responsibilities": [
+      "Support improvement projects",
+      "Collect service metrics",
+      "Prepare board reports"
+    ],
+    "required_skills": [
+      "Excel",
+      "Communication",
+      "Problem solving"
+    ],
+    "preferred_skills": [
+      "Power BI",
+      "SQL",
+      "Lean/improvement methods"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We are able to sponsor eligible candidates for this role.",
+    "education": "Degree in any discipline.",
+    "experience": "0-2 years; placements welcome.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-ops-058",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "OPERATIONS",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-ops-059",
+    "title": "Warehouse & Logistics Graduate",
+    "company": "Manchester Freight Group (Demo)",
+    "location": "Manchester, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 26,000-30,000",
+    "deadline": "2026-11-15",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-ops-059",
+    "description": "Support inbound, outbound, and transport planning for a large Manchester freight operation.",
+    "requirements": [
+      "Degree in any discipline",
+      "Practical and organised"
+    ],
+    "responsibilities": [
+      "Plan transport schedules",
+      "Track warehouse KPIs",
+      "Support shift handovers"
+    ],
+    "required_skills": [
+      "Excel",
+      "Communication",
+      "Problem solving"
+    ],
+    "preferred_skills": [
+      "WMS",
+      "ERP",
+      "Power BI"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": null,
+    "education": "Degree in any discipline.",
+    "experience": "0-2 years; placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-ops-059",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": null
+    },
+    "category": "OPERATIONS",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-ops-060",
+    "title": "Project Operations Assistant",
+    "company": "Birmingham Facilities Group (Demo)",
+    "location": "Birmingham, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 26,000-30,000",
+    "deadline": "2027-01-05",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-ops-060",
+    "description": "Support project coordination and facilities service delivery for a Birmingham estates firm.",
+    "requirements": [
+      "Degree in any discipline",
+      "Organised and proactive"
+    ],
+    "responsibilities": [
+      "Coordinate project schedules",
+      "Track service requests",
+      "Maintain project logs"
+    ],
+    "required_skills": [
+      "Excel",
+      "Communication",
+      "Organisation"
+    ],
+    "preferred_skills": [
+      "Project management",
+      "Power BI",
+      "SQL"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": null,
+    "education": "Degree in any discipline.",
+    "experience": "0-2 years; placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-ops-060",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": null
+    },
+    "category": "OPERATIONS",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-ops-061",
+    "title": "Operations Internship",
+    "company": "Bristol Port Logistics (Demo)",
+    "location": "Bristol, United Kingdom",
+    "employment_type": "Internship (12 weeks)",
+    "salary": "GBP 23,500 pro-rata",
+    "deadline": "2027-02-05",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-ops-061",
+    "description": "A summer internship across port operations, planning, and customer service for a Bristol logistics business.",
+    "requirements": [
+      "Currently studying logistics, business, or a related degree"
+    ],
+    "responsibilities": [
+      "Shadow planning teams",
+      "Help with KPI reporting",
+      "Support customer enquiries"
+    ],
+    "required_skills": [
+      "Excel",
+      "Communication",
+      "Problem solving"
+    ],
+    "preferred_skills": [
+      "Power BI",
+      "ERP"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": null,
+    "education": "Currently studying logistics, business, or a related degree.",
+    "experience": "No prior work experience required.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-ops-061",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": null
+    },
+    "category": "OPERATIONS",
+    "experience_level": "INTERNSHIP",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-con-062",
+    "title": "Graduate Consulting Analyst",
+    "company": "Ashford & Blythe Consulting (Demo)",
+    "location": "London, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 30,000-36,000",
+    "deadline": "2026-11-20",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-con-062",
+    "description": "Deliver analysis and research for strategy projects across retail, healthcare, and technology clients.",
+    "requirements": [
+      "Degree in any discipline with strong analytical skills",
+      "Excellent communication"
+    ],
+    "responsibilities": [
+      "Build client deliverables",
+      "Run market research",
+      "Support workshop facilitation"
+    ],
+    "required_skills": [
+      "Excel",
+      "Communication",
+      "Research"
+    ],
+    "preferred_skills": [
+      "SQL",
+      "Power BI",
+      "Python"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We are able to sponsor eligible candidates for this role.",
+    "education": "Degree in any discipline (2:1 or equivalent) with strong analytical content.",
+    "experience": "0-2 years; internships and placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-con-062",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "CONSULTING",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-con-063",
+    "title": "Graduate Technology Consultant",
+    "company": "Meridian Consulting Group (Demo)",
+    "location": "Edinburgh, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 29,000-34,000",
+    "deadline": "2026-11-30",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-con-063",
+    "description": "Advise clients on technology strategy, digital transformation, and system selection for a Scottish consulting firm.",
+    "requirements": [
+      "Degree in computer science, business, or a related field",
+      "Curious and client-focused"
+    ],
+    "responsibilities": [
+      "Assess client technology needs",
+      "Draft recommendations",
+      "Support implementations"
+    ],
+    "required_skills": [
+      "Communication",
+      "Data analysis",
+      "Excel"
+    ],
+    "preferred_skills": [
+      "SQL",
+      "Process mapping",
+      "Cloud awareness"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We may consider sponsorship for exceptional candidates.",
+    "education": "Degree in computer science, business, or a related field.",
+    "experience": "0-2 years; placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-con-063",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "CONSULTING",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-con-064",
+    "title": "Business Consulting Graduate",
+    "company": "Manchester Advisory Partners (Demo)",
+    "location": "Manchester, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 28,000-33,000",
+    "deadline": "2026-12-07",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-con-064",
+    "description": "Work on transformation and efficiency projects for northern public and private sector clients.",
+    "requirements": [
+      "Degree in business, economics, or a related field",
+      "Strong analytical writing"
+    ],
+    "responsibilities": [
+      "Analyse business processes",
+      "Prepare recommendations",
+      "Support client presentations"
+    ],
+    "required_skills": [
+      "Excel",
+      "Communication",
+      "Problem solving"
+    ],
+    "preferred_skills": [
+      "SQL",
+      "Power BI",
+      "Process mapping"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": null,
+    "education": "Degree in business, economics, or a related field.",
+    "experience": "0-2 years; placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-con-064",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": null
+    },
+    "category": "CONSULTING",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-con-065",
+    "title": "Consulting Analyst (Data)",
+    "company": "Birmingham Advisory Partners (Demo)",
+    "location": "Birmingham, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 28,000-33,000",
+    "deadline": "2026-12-10",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-con-065",
+    "description": "Help Midlands clients use their data better through audits, dashboards, and analysis projects.",
+    "requirements": [
+      "Degree in a quantitative or business discipline",
+      "Comfortable with data tools"
+    ],
+    "responsibilities": [
+      "Audit client data",
+      "Build insight dashboards",
+      "Support data strategy"
+    ],
+    "required_skills": [
+      "SQL",
+      "Excel",
+      "Data analysis"
+    ],
+    "preferred_skills": [
+      "Python",
+      "Power BI",
+      "Tableau"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We are able to sponsor eligible candidates for this role.",
+    "education": "Degree in a quantitative or business discipline.",
+    "experience": "0-2 years; placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-con-065",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "CONSULTING",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-con-066",
+    "title": "Graduate Strategy Consultant",
+    "company": "Yorkshire Consulting Group (Demo)",
+    "location": "Leeds, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 28,000-33,000",
+    "deadline": "2026-11-28",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-con-066",
+    "description": "Support strategy reviews and market analysis for Yorkshire manufacturing and retail clients.",
+    "requirements": [
+      "Degree in economics, business, or a related field",
+      "Clear written communication"
+    ],
+    "responsibilities": [
+      "Research markets",
+      "Build strategy models",
+      "Support board presentations"
+    ],
+    "required_skills": [
+      "Excel",
+      "Research",
+      "Communication"
+    ],
+    "preferred_skills": [
+      "Power BI",
+      "Python",
+      "SQL"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": null,
+    "education": "Degree in economics, business, or a related field.",
+    "experience": "0-2 years; placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-con-066",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": null
+    },
+    "category": "CONSULTING",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-con-067",
+    "title": "Junior Management Consultant",
+    "company": "Clyde Advisory (Demo)",
+    "location": "Glasgow, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 28,000-33,000",
+    "deadline": "2026-12-18",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-con-067",
+    "description": "Support client engagements across process improvement and operating model design in Scotland.",
+    "requirements": [
+      "Degree in any discipline",
+      "Strong analytical and collaborative skills"
+    ],
+    "responsibilities": [
+      "Support engagement delivery",
+      "Analyse processes",
+      "Prepare client workshops"
+    ],
+    "required_skills": [
+      "Excel",
+      "Communication",
+      "Problem solving"
+    ],
+    "preferred_skills": [
+      "SQL",
+      "Process mapping",
+      "Power BI"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We may consider sponsorship for exceptional candidates.",
+    "education": "Degree in any discipline (2:1 or equivalent).",
+    "experience": "0-2 years; internships welcome.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-con-067",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "CONSULTING",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-con-068",
+    "title": "Consulting Insights Intern",
+    "company": "Severn Advisory (Demo)",
+    "location": "Bristol, United Kingdom",
+    "employment_type": "Internship (12 weeks)",
+    "salary": "GBP 23,500 pro-rata",
+    "deadline": "2027-02-08",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-con-068",
+    "description": "A summer internship producing research and data insights for consulting projects in Bristol.",
+    "requirements": [
+      "Currently studying business, economics, or a related degree"
+    ],
+    "responsibilities": [
+      "Research client industries",
+      "Prepare insight packs",
+      "Support analyst teams"
+    ],
+    "required_skills": [
+      "Excel",
+      "Research",
+      "Communication"
+    ],
+    "preferred_skills": [
+      "Power BI",
+      "SQL"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": null,
+    "education": "Currently studying business, economics, or a related degree.",
+    "experience": "No prior work experience required.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-con-068",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": null
+    },
+    "category": "CONSULTING",
+    "experience_level": "INTERNSHIP",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-con-069",
+    "title": "Operations Consulting Graduate",
+    "company": "Peak Consult Partners (Demo)",
+    "location": "Sheffield, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 27,000-32,000",
+    "deadline": "2026-12-15",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-con-069",
+    "description": "Support efficiency and cost-reduction projects for manufacturing and public sector clients in the North.",
+    "requirements": [
+      "Degree in engineering, business, or a related field",
+      "Analytical and structured"
+    ],
+    "responsibilities": [
+      "Map operating models",
+      "Analyse cost drivers",
+      "Support change workshops"
+    ],
+    "required_skills": [
+      "Excel",
+      "Process mapping",
+      "Communication"
+    ],
+    "preferred_skills": [
+      "SQL",
+      "Power BI",
+      "Lean basics"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We are able to sponsor eligible candidates for this role.",
+    "education": "Degree in engineering, business, or a related field.",
+    "experience": "0-2 years; placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-con-069",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "CONSULTING",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-eng-070",
+    "title": "Graduate Structural Engineer",
+    "company": "Trent Bridge Engineering (Demo)",
+    "location": "Nottingham, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 28,000-33,000",
+    "deadline": "2026-11-18",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-eng-070",
+    "description": "Support design and site-inspection work for bridges and infrastructure projects in the Midlands.",
+    "requirements": [
+      "MEng/BEng (Hons) in civil or structural engineering",
+      "Willingness to work towards chartership"
+    ],
+    "responsibilities": [
+      "Prepare design calculations",
+      "Support site inspections",
+      "Draft technical reports"
+    ],
+    "required_skills": [
+      "AutoCAD",
+      "Structural analysis",
+      "Technical writing"
+    ],
+    "preferred_skills": [
+      "Revit",
+      "Python",
+      "Project management"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We may consider sponsorship for exceptional candidates.",
+    "education": "MEng/BEng (Hons) in civil or structural engineering.",
+    "experience": "0-2 years; placement year counts.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-eng-070",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "ENGINEERING",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-eng-071",
+    "title": "Graduate Systems Engineer",
+    "company": "Cambridge Systems Engineering (Demo)",
+    "location": "Cambridge, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 30,000-36,000",
+    "deadline": "2026-12-01",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-eng-071",
+    "description": "Work on requirements, system integration, and verification for a Cambridge engineering consultancy.",
+    "requirements": [
+      "Degree in engineering, physics, or computer science",
+      "Systems-thinking mindset"
+    ],
+    "responsibilities": [
+      "Maintain requirements",
+      "Support system integration",
+      "Write verification plans"
+    ],
+    "required_skills": [
+      "Engineering fundamentals",
+      "Technical writing",
+      "Python"
+    ],
+    "preferred_skills": [
+      "Model-based systems engineering",
+      "Jira",
+      "SQL"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We will sponsor eligible candidates.",
+    "education": "Degree in engineering, physics, or computer science.",
+    "experience": "0-2 years; group projects and internships welcome.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-eng-071",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "ENGINEERING",
+    "experience_level": "GRADUATE",
+    "work_mode": "HYBRID",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-eng-072",
+    "title": "Graduate Mechanical Engineer",
+    "company": "Clyde Engineering Works (Demo)",
+    "location": "Glasgow, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 29,000-34,000",
+    "deadline": "2026-11-28",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-eng-072",
+    "description": "Support design, testing, and manufacturing handover for heavy engineering products in Glasgow.",
+    "requirements": [
+      "MEng/BEng (Hons) in mechanical engineering",
+      "Interest in manufacturing"
+    ],
+    "responsibilities": [
+      "Produce CAD models",
+      "Run test procedures",
+      "Support manufacturing handover"
+    ],
+    "required_skills": [
+      "CAD",
+      "Mechanical fundamentals",
+      "Technical writing"
+    ],
+    "preferred_skills": [
+      "SolidWorks",
+      "MATLAB",
+      "Project management"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": null,
+    "education": "MEng/BEng (Hons) in mechanical engineering.",
+    "experience": "0-2 years; placement years count.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-eng-072",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": null
+    },
+    "category": "ENGINEERING",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-eng-073",
+    "title": "Junior Controls Engineer",
+    "company": "Camley Automation Co. (Demo)",
+    "location": "Cambridge, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 27,000-32,000",
+    "deadline": "2027-01-12",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-eng-073",
+    "description": "Support PLC and control-system commissioning for automation projects at a Cambridge engineering firm.",
+    "requirements": [
+      "Degree in electrical, electronic, or control engineering",
+      "Hands-on and methodical"
+    ],
+    "responsibilities": [
+      "Support panel builds",
+      "Run commissioning tests",
+      "Document control schematics"
+    ],
+    "required_skills": [
+      "Electrical fundamentals",
+      "PLC basics",
+      "Technical writing"
+    ],
+    "preferred_skills": [
+      "MATLAB",
+      "Python",
+      "SCADA"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We may consider sponsorship for exceptional candidates.",
+    "education": "Degree in electrical, electronic, or control engineering.",
+    "experience": "Entry level; placement and lab work welcome.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-eng-073",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "ENGINEERING",
+    "experience_level": "ENTRY_LEVEL",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-eng-074",
+    "title": "Graduate Civil Engineer",
+    "company": "Leeds Infrastructure Partners (Demo)",
+    "location": "Leeds, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 28,000-33,000",
+    "deadline": "2026-11-25",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-eng-074",
+    "description": "Support highway and drainage design packages for Yorkshire infrastructure projects.",
+    "requirements": [
+      "MEng/BEng (Hons) in civil engineering",
+      "Geotechnical or highways interest"
+    ],
+    "responsibilities": [
+      "Prepare design packages",
+      "Liaise with contractors",
+      "Draft technical reports"
+    ],
+    "required_skills": [
+      "AutoCAD",
+      "Civil engineering fundamentals",
+      "Technical writing"
+    ],
+    "preferred_skills": [
+      "Revit",
+      "MicroStation",
+      "Project management"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We are able to sponsor eligible candidates for this role.",
+    "education": "MEng/BEng (Hons) in civil engineering.",
+    "experience": "0-2 years; placement year counts.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-eng-074",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "ENGINEERING",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-eng-075",
+    "title": "Engineering Graduate Programme",
+    "company": "Bristol Engineering Group (Demo)",
+    "location": "Bristol, United Kingdom",
+    "employment_type": "Graduate scheme (24 months)",
+    "salary": "GBP 29,000-34,000",
+    "deadline": "2026-12-05",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-eng-075",
+    "description": "Rotate across design, project, and manufacturing teams for a multi-discipline Bristol engineering group.",
+    "requirements": [
+      "MEng/BEng (Hons) in any engineering discipline",
+      "Willingness to rotate across teams"
+    ],
+    "responsibilities": [
+      "Rotate across engineering teams",
+      "Own a design workstream",
+      "Support project reporting"
+    ],
+    "required_skills": [
+      "Engineering fundamentals",
+      "Communication",
+      "CAD"
+    ],
+    "preferred_skills": [
+      "Project management",
+      "Python",
+      "Technical writing"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": null,
+    "education": "MEng/BEng (Hons) in any engineering discipline.",
+    "experience": "Graduate entry; placements welcome.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-eng-075",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": null
+    },
+    "category": "ENGINEERING",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-eng-076",
+    "title": "Graduate Manufacturing Engineer",
+    "company": "Manchester Precision Works (Demo)",
+    "location": "Manchester, United Kingdom",
+    "employment_type": "Full-time",
+    "salary": "GBP 28,000-33,000",
+    "deadline": "2026-12-20",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-eng-076",
+    "description": "Support process improvement and new-product introduction on a Manchester precision manufacturing site.",
+    "requirements": [
+      "MEng/BEng (Hons) in mechanical, manufacturing, or industrial engineering",
+      "Lean mindset"
+    ],
+    "responsibilities": [
+      "Support NPI projects",
+      "Run process audits",
+      "Support lean improvement activities"
+    ],
+    "required_skills": [
+      "Manufacturing fundamentals",
+      "CAD",
+      "Problem solving"
+    ],
+    "preferred_skills": [
+      "Lean methods",
+      "Python",
+      "Project management"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": "We will sponsor eligible candidates.",
+    "education": "MEng/BEng (Hons) in mechanical, manufacturing, or industrial engineering.",
+    "experience": "0-2 years; placement year counts.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-eng-076",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": "Synthetic demo value; not an employer claim"
+    },
+    "category": "ENGINEERING",
+    "experience_level": "GRADUATE",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  },
+  {
+    "job_id": "demo-uk-eng-077",
+    "title": "Engineering Placement (Year in Industry)",
+    "company": "Forth Engineering (Demo)",
+    "location": "Edinburgh, United Kingdom",
+    "employment_type": "Fixed Term (12 months)",
+    "salary": "GBP 24,000",
+    "deadline": "2027-01-20",
+    "source_url": "https://demo.careerpilot.local/jobs/demo-uk-eng-077",
+    "description": "A 12-month placement supporting design and testing for a Scottish engineering consultancy.",
+    "requirements": [
+      "Penultimate-year engineering degree",
+      "Academic exposure to engineering design"
+    ],
+    "responsibilities": [
+      "Support design work",
+      "Help with testing",
+      "Shadow senior engineers"
+    ],
+    "required_skills": [
+      "Engineering fundamentals",
+      "CAD",
+      "Technical writing"
+    ],
+    "preferred_skills": [
+      "MATLAB",
+      "Python"
+    ],
+    "eligibility": "Demo listing; verify eligibility with the employer.",
+    "sponsorship_information": null,
+    "education": "Penultimate-year engineering degree.",
+    "experience": "Placement year; prior work experience not required.",
+    "provenance": {
+      "source_url": "https://demo.careerpilot.local/jobs/demo-uk-eng-077",
+      "source_name": "CareerPilot demo dataset",
+      "salary_source": "Synthetic demo value; not an employer claim",
+      "deadline_source": "Synthetic demo deadline; not an employer claim",
+      "requirements_source": "Synthetic demo value; not an employer claim",
+      "sponsorship_source": null
+    },
+    "category": "ENGINEERING",
+    "experience_level": "PLACEMENT",
+    "work_mode": "ON_SITE",
+    "source_domain": "demo.careerpilot.local"
+  }
+]
