@@ -131,56 +131,95 @@ export function SocietyMain({ onNavigate }: { onNavigate?: (tab: Tab) => void })
     ]);
   }
 
-  async function initializeContext() {
-    const resumeId = window.localStorage.getItem("careerpilot_resume_id");
-    const jobId = window.localStorage.getItem("careerpilot_job_id");
-    const interviewId = window.localStorage.getItem("careerpilot_interview_id");
-    setHasResume(Boolean(resumeId));
-    setHasInterview(Boolean(interviewId));
-    setInterviewId(interviewId);
-    if (!resumeId) return;
+async function initializeContext() {
+  const resumeId = window.localStorage.getItem("careerpilot_resume_id");
+  const jobId = window.localStorage.getItem("careerpilot_job_id");
+  const interviewId = window.localStorage.getItem("careerpilot_interview_id");
 
+  let validInterviewId = interviewId;
+
+  if (interviewId) {
     try {
-      const analysisRes = await fetch(`${apiUrl}/api/resumes/${encodeURIComponent(resumeId)}`);
-      if (analysisRes.ok) {
-        const data = await analysisRes.json();
-        showProfileSummary(data);
+      const interviewRes = await fetch(
+        `${apiUrl}/api/interviews/${encodeURIComponent(interviewId)}/results`,
+      );
+
+      if (!interviewRes.ok) {
+        validInterviewId = null;
+        window.localStorage.removeItem("careerpilot_interview_id");
+      }
+    } catch {
+      validInterviewId = null;
+      window.localStorage.removeItem("careerpilot_interview_id");
+    }
+  }
+
+  setHasResume(Boolean(resumeId));
+  setHasInterview(Boolean(validInterviewId));
+  setInterviewId(validInterviewId);
+
+  if (!resumeId) return;
+
+  try {
+    const analysisRes = await fetch(
+      `${apiUrl}/api/resumes/${encodeURIComponent(resumeId)}`,
+    );
+
+    if (analysisRes.ok) {
+      const data = await analysisRes.json();
+      showProfileSummary(data);
+    }
+  } catch {
+    setErrorMessage("");
+  }
+
+  let jobCtx: JobContext | null = null;
+
+  if (jobId) {
+    try {
+      const jobRes = await fetch(
+        `${apiUrl}/api/jobs/${encodeURIComponent(jobId)}`,
+      );
+
+      if (jobRes.ok) {
+        const jobData = await jobRes.json();
+
+        let fitScore: number | null = null;
+        let sponsorship: string | null = null;
+
+        const fitRes = await fetch(
+          `${apiUrl}/api/jobs/${encodeURIComponent(jobId)}/match?resume_id=${encodeURIComponent(resumeId)}`,
+        );
+
+        if (fitRes.ok) {
+          const fitData = await fitRes.json();
+          fitScore = fitData.fit_score ?? null;
+          sponsorship = fitData.sponsorship?.classification ?? null;
+        }
+
+        jobCtx = {
+          jobId,
+          title: jobData.title,
+          company: jobData.company,
+          fitScore,
+          sponsorship,
+          deadline: jobData.deadline,
+        };
+
+        setJob(jobCtx);
       }
     } catch {
       setErrorMessage("");
     }
-
-    let jobCtx: JobContext | null = null;
-    if (jobId) {
-      try {
-        const jobRes = await fetch(`${apiUrl}/api/jobs/${encodeURIComponent(jobId)}`);
-        if (jobRes.ok) {
-          const jobData = await jobRes.json();
-          let fitScore: number | null = null;
-          let sponsorship: string | null = null;
-          const fitRes = await fetch(`${apiUrl}/api/jobs/${encodeURIComponent(jobId)}/match?resume_id=${encodeURIComponent(resumeId)}`);
-          if (fitRes.ok) {
-            const fitData = await fitRes.json();
-            fitScore = fitData.fit_score ?? null;
-            sponsorship = fitData.sponsorship?.classification ?? null;
-          }
-          jobCtx = {
-            jobId,
-            title: jobData.title,
-            company: jobData.company,
-            fitScore,
-            sponsorship,
-            deadline: jobData.deadline,
-          };
-          setJob(jobCtx);
-        }
-      } catch {
-        setErrorMessage("");
-      }
-    }
-
-    await runInitialBriefing(resumeId, jobId, interviewId, jobCtx);
   }
+
+  await runInitialBriefing(
+    resumeId,
+    jobId,
+    validInterviewId,
+    jobCtx,
+  );
+}
 
   async function handleResumeUpload(event: ChangeEvent<HTMLInputElement>) {
     const file = event.target.files?.[0];
