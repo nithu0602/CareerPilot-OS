@@ -5,6 +5,7 @@ from pathlib import Path
 from uuid import uuid4
 
 from fastapi import APIRouter, File, HTTPException, UploadFile, status
+from fastapi.responses import FileResponse
 
 from app.config import get_settings
 from app.models.resume import ResumeAnalysis, ResumeUploadResponse
@@ -67,3 +68,12 @@ async def get_resume_analysis(resume_id: str) -> ResumeAnalysis:
         return ResumeAnalysis.model_validate(json.loads(path.read_text(encoding="utf-8")))
     except (json.JSONDecodeError, ValueError) as exc:
         raise HTTPException(status_code=500, detail="Stored resume analysis is malformed.") from exc
+
+
+@router.get("/{resume_id}/file")
+async def get_resume_file(resume_id: str) -> FileResponse:
+    resume_dir, _ = _dirs()
+    pdf_path = resume_dir / f"{resume_id}.pdf"
+    if not pdf_path.exists():
+        raise HTTPException(status_code=404, detail="Resume file not found.")
+    return FileResponse(pdf_path, media_type="application/pdf")

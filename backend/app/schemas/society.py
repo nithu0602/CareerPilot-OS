@@ -86,3 +86,38 @@ class SocietyResult(BaseModel):
     evidence: list[EvidenceItem] = Field(default_factory=list)
     agent_runs: list[AgentRunResult] = Field(default_factory=list)
     warnings: list[str] = Field(default_factory=list)
+
+
+class SpecialistPerspective(BaseModel):
+    agent: str
+    perspective: str
+    status: Literal["SUPPORTING", "CHALLENGED", "ADJUSTED", "NEUTRAL"] = "NEUTRAL"
+    evidence_type: EvidenceType = "FACT"
+
+
+class ChatMessage(BaseModel):
+    role: Literal["user", "assistant", "system"]
+    content: str
+    specialist_perspectives: list[SpecialistPerspective] = Field(default_factory=list)
+    timestamp: datetime = Field(default_factory=lambda: datetime.now())
+
+
+class SocietyDeliberateRequest(BaseModel):
+    resume_id: str
+    job_id: str | None = None
+    interview_id: str | None = None
+    message: str
+    history: list[ChatMessage] = Field(default_factory=list)
+
+
+class SocietyDeliberateResponse(BaseModel):
+    status: SocietyStatus = "SUCCESS"
+    reply: str
+    specialist_perspectives: list[SpecialistPerspective] = Field(default_factory=list)
+    next_best_action: str
+    reasoning: str
+    confidence: float = Field(ge=0, le=1, default=0.8)
+    action_cta: str | None = None
+    evidence_used: list[EvidenceItem] = Field(default_factory=list)
+    warnings: list[str] = Field(default_factory=list)
+

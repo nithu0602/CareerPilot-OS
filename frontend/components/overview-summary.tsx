@@ -99,7 +99,12 @@ function SummaryCard({ label, value, action, onNavigate }: { label: string; valu
 // automatically call the Society API (that remains an explicit user action
 // on its own dedicated tab, per the existing Society design).
 function SocietySummary({ onNavigate }: { onNavigate: (tab: Tab) => void }) {
-  const hasResume = typeof window !== "undefined" && Boolean(window.localStorage.getItem("careerpilot_resume_id"));
+  const [hasResume, setHasResume] = useState(false);
+
+  useEffect(() => {
+    setHasResume(Boolean(window.localStorage.getItem("careerpilot_resume_id")));
+  }, []);
+
   return (
     <section className="rounded-xl border border-white/10 bg-white/[0.03] p-5">
       <p className="text-sm text-indigo-300">AI Society</p>

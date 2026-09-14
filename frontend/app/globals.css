@@ -2,8 +2,24 @@
 
 :root {
   color-scheme: dark;
+
+  /* Surfaces */
   --background: #0b1020;
+  --surface: #111834;
+  --surface-raised: #161f42;
+  --border: rgba(255, 255, 255, 0.1);
   --foreground: #e8ecf7;
+  --muted: #94a3c4;
+
+  /* Brand */
+  --primary: #6366f1;
+  --primary-foreground: #ffffff;
+  --accent: #22d3ee;
+
+  /* Status */
+  --success: #34d399;
+  --warning: #fbbf24;
+  --error: #f87171;
 }
 
 * {
@@ -14,5 +30,163 @@ body {
   margin: 0;
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
 }
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes glow-pulse {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.animate-glow-pulse {
+  animation: glow-pulse 3s ease-in-out infinite;
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.6s ease-out forwards;
+}
+
+.landing-bg {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 50% 15%, rgba(99, 102, 241, 0.16), transparent 42%),
+    radial-gradient(ellipse at 12% 78%, rgba(34, 211, 238, 0.08), transparent 35%),
+    radial-gradient(ellipse at 88% 72%, rgba(217, 70, 239, 0.08), transparent 38%),
+    linear-gradient(180deg, #070b16 0%, #0b1020 52%, #080c17 100%);
+}
+
+.landing-grid {
+  position: absolute;
+  inset: 0;
+  opacity: 0.24;
+  background-image:
+    linear-gradient(rgba(148, 163, 196, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 163, 196, 0.08) 1px, transparent 1px);
+  background-size: 58px 58px;
+  mask-image: radial-gradient(ellipse 75% 60% at 50% 42%, black 0%, transparent 74%);
+}
+
+.landing-scan {
+  position: absolute;
+  inset: 0;
+  opacity: 0.35;
+  background: linear-gradient(115deg, transparent 25%, rgba(125, 211, 252, 0.06) 45%, rgba(167, 139, 250, 0.08) 52%, transparent 72%);
+  animation: landing-scan 9s ease-in-out infinite;
+}
+
+.landing-orbit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 1px solid rgba(129, 140, 248, 0.12);
+  border-radius: 999px;
+  transform: translate(-50%, -50%);
+  animation: landing-orbit 24s linear infinite;
+}
+
+.landing-orbit-one {
+  width: min(88vw, 980px);
+  height: min(88vw, 980px);
+}
+
+.landing-orbit-two {
+  width: min(68vw, 720px);
+  height: min(68vw, 720px);
+  transform: translate(-50%, -50%) rotate(24deg) scaleY(0.55);
+  animation-direction: reverse;
+  animation-duration: 32s;
+}
+
+.landing-particle {
+  position: absolute;
+  border-radius: 999px;
+  background: rgba(165, 180, 252, 0.55);
+  box-shadow: 0 0 18px rgba(129, 140, 248, 0.7);
+  animation: landing-float 7s ease-in-out infinite;
+}
+
+.landing-particle-one {
+  top: 22%;
+  left: 18%;
+  width: 5px;
+  height: 5px;
+}
+
+.landing-particle-two {
+  top: 31%;
+  right: 16%;
+  width: 3px;
+  height: 3px;
+  animation-delay: -2s;
+  background: rgba(103, 232, 249, 0.65);
+}
+
+.landing-particle-three {
+  bottom: 25%;
+  left: 27%;
+  width: 4px;
+  height: 4px;
+  animation-delay: -4s;
+  background: rgba(240, 171, 252, 0.6);
+}
+
+.landing-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  border: 1px solid rgba(129, 140, 248, 0.22);
+  border-radius: 999px;
+  padding: 0.5rem 0.85rem;
+  background: rgba(49, 46, 129, 0.16);
+  box-shadow: inset 0 0 24px rgba(99, 102, 241, 0.08);
+  color: #b6c2e6;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  backdrop-filter: blur(12px);
+}
+
+.landing-title {
+  display: block;
+  color: #f8fafc;
+  text-shadow: 0 0 40px rgba(148, 163, 184, 0.16);
+}
+
+.landing-title-gradient {
+  display: block;
+  background: linear-gradient(100deg, #a5b4fc 0%, #67e8f9 42%, #c084fc 78%, #f0abfc 100%);
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 0 24px rgba(129, 140, 248, 0.2));
+}
+
+@keyframes landing-scan {
+  0%, 100% { transform: translateX(-12%) skewX(-8deg); opacity: 0.18; }
+  50% { transform: translateX(12%) skewX(-8deg); opacity: 0.42; }
+}
+
+@keyframes landing-orbit {
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+@keyframes landing-float {
+  0%, 100% { transform: translateY(0) translateX(0); opacity: 0.45; }
+  50% { transform: translateY(-14px) translateX(6px); opacity: 0.9; }
+}
+

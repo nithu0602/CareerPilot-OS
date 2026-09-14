@@ -22,6 +22,7 @@ from app.services.job_data import (
     filter_jobs,
     find_job,
     load_demo_jobs,
+    search_demo_catalog,
 )
 
 router = APIRouter(prefix="/jobs", tags=["jobs"])
@@ -47,15 +48,24 @@ async def job_search_options() -> dict:
 
 @router.post("/search", response_model=JobSearchResponse)
 async def search_jobs(request: JobSearchRequest) -> JobSearchResponse:
-    demo = load_demo_jobs()
     if request.mode == "demo":
-        jobs = filter_jobs(demo, request.role, request.location, request.keyword, request.category, request.experience, request.work_mode)
-        return JobSearchResponse(jobs=jobs, mode="demo", total=len(jobs))
+        jobs, note = search_demo_catalog(
+            request.role, request.location, request.keyword, request.category,
+            request.experience, request.work_mode,
+        )
+        return JobSearchResponse(jobs=jobs, mode="demo", total=len(jobs), result_note=note)
 
     client = AnakinClient()
     if not client.configured:
-        jobs = filter_jobs(demo, request.role, request.location, request.keyword, request.category, request.experience, request.work_mode)
-        return JobSearchResponse(jobs=jobs, mode="fallback", fallback_reason="Anakin credentials are not configured.", total=len(jobs))
+        jobs, note = search_demo_catalog(
+            request.role, request.location, request.keyword, request.category,
+            request.experience, request.work_mode,
+        )
+        return JobSearchResponse(
+            jobs=jobs, mode="fallback",
+            fallback_reason="Anakin credentials are not configured.",
+            total=len(jobs), result_note=note,
+        )
 
     location = request.location or DEFAULT_LOCATION
     queries = build_search_queries(request.category, location, request.experience, request.keyword, max_queries=MAX_QUERIES)
@@ -90,8 +100,20 @@ async def search_jobs(request: JobSearchRequest) -> JobSearchResponse:
         note = f"{len(jobs)} relevant opportunit{'y' if len(jobs) == 1 else 'ies'} found."
         return JobSearchResponse(jobs=jobs, mode="live", total=len(jobs), queries_used=queries, result_note=note)
     except (httpx.HTTPError, ValueError, RuntimeError, KeyError, TypeError) as exc:
-        jobs = filter_jobs(demo, request.role, request.location, request.keyword, request.category, request.experience, request.work_mode)
-        return JobSearchResponse(jobs=jobs, mode="fallback", fallback_reason=f"Live Anakin request failed: {exc}", total=len(jobs), queries_used=queries)
+        jobs, note = search_demo_catalog(
+            request.role, request.location, request.keyword, request.category,
+            request.experience, request.work_mode,
+        )
+        # Some exceptions (e.g. httpx.ReadTimeout) have an empty str(exc), which previously
+        # produced an uninformative "Live Anakin request failed: " reason. Always include the
+        # exception type so the failing cause is diagnosable without exposing secrets.
+        detail = str(exc).strip()
+        exc_summary = f"{type(exc).__name__}: {detail}" if detail else type(exc).__name__
+        return JobSearchResponse(
+            jobs=jobs, mode="fallback",
+            fallback_reason=f"Live Anakin request failed: {exc_summary}",
+            total=len(jobs), queries_used=queries, result_note=note,
+        )
 
 
 @router.get("", response_model=list[JobRecord])

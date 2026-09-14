@@ -54,3 +54,7 @@ class JobMatchAnalysis(BaseModel):
     why_this_match: list[str]
     why_not_100: list[str]
     recommended_next_step: str
+    # Populated by the Grok (xAI) explanation layer – None when key absent or call fails.
+    # The deterministic score/facts above are always authoritative; this is explanatory only.
+    grok_explanation: str | None = None
+

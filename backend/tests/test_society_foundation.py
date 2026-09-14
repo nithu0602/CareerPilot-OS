@@ -150,3 +150,33 @@ def test_verified_sponsorship_cannot_be_overwritten():
     assert result.fit_analysis is not None
     assert result.fit_analysis.sponsorship_assessment.type == "FACT"
     assert "UNCLEAR" in result.fit_analysis.sponsorship_assessment.claim
+
+
+def test_deliberate_grounded_fallback():
+    context = _context(
+        deterministic_fit_analysis={
+            "fit_score": 80,
+            "skill_gaps": [{"skill": "Power BI", "category": "missing required skill"}],
+            "sponsorship": {"classification": "EXPLICIT", "fact": "Sponsors visas.", "evidence_quote": "Visa sponsorship offered"},
+        }
+    )
+    orchestrator = SocietyOrchestrator(groq=FakeClient(error=True), ollama=FakeClient(error=True))
+    response = orchestrator.deliberate(context, "I know Tableau instead of Power BI. Is that acceptable?")
+    assert response.status == "SUCCESS"
+    assert "Tableau" in response.reply
+    assert len(response.specialist_perspectives) > 0
+    assert any(p.agent == "Fit Critic" for p in response.specialist_perspectives)
+
+
+def test_deliberate_sponsorship_query_grounded():
+    context = _context(
+        deterministic_fit_analysis={
+            "fit_score": 80,
+            "sponsorship": {"classification": "NO", "fact": "No sponsorship offered."},
+        }
+    )
+    orchestrator = SocietyOrchestrator(groq=FakeClient(error=True), ollama=FakeClient(error=True))
+    response = orchestrator.deliberate(context, "Will they sponsor my visa?")
+    assert response.status == "SUCCESS"
+    assert "no sponsorship" in response.reply.lower() or "unrestricted" in response.reply.lower()
+

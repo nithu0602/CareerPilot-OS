@@ -19,6 +19,9 @@ class Settings(BaseSettings):
     groq_model: str = "openai/gpt-oss-20b"
     ollama_base_url: str = "http://localhost:11434"
     ollama_model: str = "gemma3:4b"
+    # xAI Grok – used exclusively for Fit Analysis explanation
+    xai_api_key: str = ""
+    xai_model: str = "grok-3-mini"
 
     model_config = SettingsConfigDict(
         env_file=".env",

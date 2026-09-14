@@ -67,6 +67,68 @@ def filter_jobs(
     return filtered
 
 
+# Count of direct matches below which the demo catalog widens the search to
+# nearby UK roles instead of returning a near-empty list.
+DEMO_MIN_RESULTS = 5
+
+
+def search_demo_catalog(
+    role: str = "",
+    location: str = "",
+    keyword: str = "",
+    category: str | None = None,
+    experience: str | None = None,
+    work_mode: str | None = None,
+    min_results: int = DEMO_MIN_RESULTS,
+) -> tuple[list[JobRecord], str | None]:
+    """Graceful demo search across the cached catalog.
+
+    Preserves the user's relevance filters (role, keyword, category) at all
+    times. When a specific location returns fewer than ``min_results`` direct
+    matches, the search is progressively widened - location first, then work
+    mode, then experience - so a sparse city never produces an empty page for a
+    category that clearly has relevant roles elsewhere in the UK.
+
+    Returns ``(jobs, note)`` where ``note`` describes exactly what the user is
+    seeing (and is ``None`` when no widening was needed).
+    """
+    demo = load_demo_jobs()
+    location_present = bool(location and location.strip())
+    experience_present = bool(experience and experience.strip() and experience.strip().upper() != "ANY")
+    work_mode_present = bool(work_mode and work_mode.strip() and work_mode.strip().upper() != "ANY")
+
+    jobs = filter_jobs(demo, role, location, keyword, category, experience, work_mode)
+    if not location_present or len(jobs) >= min_results:
+        return jobs, None
+
+    direct = len(jobs)
+    note = (
+        f"'{location.strip()}' only had {direct} direct demo match"
+        f"{'es' if direct != 1 else ''}. Showing the closest relevant cached "
+        "demo roles across the UK."
+    )
+
+    # 1. Widen spatially: same relevance filters, any UK city.
+    jobs = filter_jobs(demo, role, "", keyword, category, experience, work_mode)
+    relaxed_extra = []
+    if work_mode_present and len(jobs) < min_results:
+        # 2. Widen work mode when the effective pool is still too small.
+        relaxed_extra.append("work mode")
+        jobs = filter_jobs(demo, role, "", keyword, category, experience, None)
+    if experience_present and len(jobs) < min_results:
+        # 3. Widen experience level last; category and keyword are never dropped.
+        relaxed_extra.append("experience level")
+        jobs = filter_jobs(demo, role, "", keyword, category, None, None)
+    if relaxed_extra:
+        note = (
+            f"'{location.strip()}' only had {direct} direct demo match"
+            f"{'es' if direct != 1 else ''}. Showing {len(jobs)} closest "
+            f"relevant cached demo roles across the UK (widened by "
+            f"{', '.join(relaxed_extra)})."
+        )
+    return jobs, note
+
+
 def source_domain(url: str | None) -> str | None:
     if not url:
         return None

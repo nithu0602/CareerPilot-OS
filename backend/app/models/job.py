@@ -28,6 +28,8 @@ class JobRecord(BaseModel):
     responsibilities: list[str] = Field(default_factory=list)
     required_skills: list[str] = Field(default_factory=list)
     preferred_skills: list[str] = Field(default_factory=list)
+    education: str | None = None
+    experience: str | None = None
     eligibility: str | None = None
     sponsorship_information: str | None = None
     provenance: JobProvenance

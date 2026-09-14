@@ -1,6 +1,6 @@
-"use client";
+﻿"use client";
 
-import { ChangeEvent, useState } from "react";
+import { ChangeEvent, useEffect, useState } from "react";
 
 type Analysis = {
   ats_estimate: number;
@@ -15,10 +15,25 @@ type Analysis = {
 
 const apiUrl = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
-export function ResumeIntelligence() {
+export function ResumeIntelligence({ onNavigate }: { onNavigate?: (tab: "Resume" | "Job Intelligence" | "Interview" | "Applications" | "AI Society") => void }) {
   const [analysis, setAnalysis] = useState<Analysis | null>(null);
   const [status, setStatus] = useState("Upload a text-based PDF resume to begin.");
   const [busy, setBusy] = useState(false);
+
+  useEffect(() => {
+    const resumeId = window.localStorage.getItem("careerpilot_resume_id");
+    if (!resumeId || analysis) return;
+    void fetch(`${apiUrl}/api/resumes/${encodeURIComponent(resumeId)}`)
+      .then(async (response) => {
+        if (!response.ok) throw new Error("Stored analysis unavailable.");
+        return response.json() as Promise<Analysis>;
+      })
+      .then((stored) => {
+        setAnalysis(stored);
+        setStatus("Analysis complete. Ready for your next move.");
+      })
+      .catch(() => setStatus("Upload a text-based PDF resume to begin."));
+  }, [analysis]);
 
   async function upload(event: ChangeEvent<HTMLInputElement>) {
     const file = event.target.files?.[0];
@@ -61,12 +76,12 @@ export function ResumeIntelligence() {
         </label>
       </div>
       <p className="mt-5 text-xs text-slate-500">{status}</p>
-      {analysis && <AnalysisView analysis={analysis} />}
+      {analysis && <AnalysisView analysis={analysis} onNavigate={onNavigate} />}
     </div>
   );
 }
 
-function AnalysisView({ analysis }: { analysis: Analysis }) {
+function AnalysisView({ analysis, onNavigate }: { analysis: Analysis; onNavigate?: (tab: "Resume" | "Job Intelligence" | "Interview" | "Applications" | "AI Society") => void }) {
   return (
     <div className="mt-6 space-y-5 border-t border-white/10 pt-5">
       <div className="grid gap-3 sm:grid-cols-3">
@@ -74,6 +89,24 @@ function AnalysisView({ analysis }: { analysis: Analysis }) {
         <Metric label="Sections detected" value={`${analysis.profile.sections_present.length}/6`} />
         <Metric label="Skill signals" value={`${analysis.skill_signals.length}`} />
       </div>
+      {onNavigate && (
+        <div className="flex flex-wrap gap-2 pt-1">
+          <button
+            type="button"
+            onClick={() => onNavigate("AI Society")}
+            className="rounded-lg bg-indigo-500 px-4 py-2 text-xs font-semibold text-white shadow-md shadow-indigo-500/25 transition-all hover:bg-indigo-400 hover:shadow-indigo-500/40"
+          >
+            NEXT <span aria-hidden="true">→</span>
+          </button>
+          <button
+            type="button"
+            onClick={() => onNavigate("Job Intelligence")}
+            className="rounded-lg bg-indigo-500/20 border border-indigo-400/30 px-3.5 py-1.5 text-xs font-medium text-indigo-200 hover:bg-indigo-500/30 transition-colors"
+          >
+            Find Matching Jobs in Job Intelligence →
+          </button>
+        </div>
+      )}
       <p className="rounded-lg border border-indigo-400/20 bg-indigo-400/10 p-3 text-xs leading-5 text-indigo-100">
         This is a CareerPilot compatibility estimate, not a prediction of how a specific ATS will score your resume.
       </p>

@@ -51,7 +51,8 @@ class GroqClient:
                     "messages": [{"role": "user", "content": prompt}],
                     "temperature": 0,
                     "max_tokens": 1400,
-                    "response_format": {"type": "json_object"},
+                    # The configured gpt-oss Groq model rejects json_object mode.
+                    # The caller still requires JSON and parse_json_object validates it.
                 },
             )
             response.raise_for_status()
@@ -88,3 +89,63 @@ class OllamaClient:
             raise
         except (httpx.HTTPError, KeyError, IndexError, TypeError, ValueError) as exc:
             raise ProviderError(f"Ollama request failed: {type(exc).__name__}.") from exc
+
+
+class GrokClient:
+    """xAI Grok client – used ONLY for Fit Analysis explanation.
+
+    This is xAI's Grok (api.x.ai), NOT Groq (api.groq.com).
+    Uses the OpenAI-compatible chat completions endpoint.
+    """
+
+    provider = "Grok (xAI)"
+
+    def __init__(self, settings: Settings, client: httpx.Client | None = None) -> None:
+        self.api_key = settings.xai_api_key
+        self.model = settings.xai_model
+        self.client = client or httpx.Client(timeout=45)
+
+    def complete_text(self, prompt: str) -> str:
+        """Return a plain-text completion from Grok. Raises ProviderError on failure."""
+        if not self.api_key:
+            raise ProviderError("XAI_API_KEY is not configured.")
+        try:
+            response = self.client.post(
+                "https://api.x.ai/v1/chat/completions",
+                headers={"Authorization": f"Bearer {self.api_key}"},
+                json={
+                    "model": self.model,
+                    "messages": [{"role": "user", "content": prompt}],
+                    "temperature": 0.3,
+                    "max_tokens": 800,
+                },
+            )
+            response.raise_for_status()
+            return response.json()["choices"][0]["message"]["content"].strip()
+        except ProviderError:
+            raise
+        except (httpx.HTTPError, KeyError, IndexError, TypeError, ValueError) as exc:
+            raise ProviderError(f"Grok (xAI) request failed: {type(exc).__name__}.") from exc
+
+    def complete_json(self, prompt: str) -> dict[str, Any]:
+        """Return a JSON completion from Grok (for structured responses)."""
+        if not self.api_key:
+            raise ProviderError("XAI_API_KEY is not configured.")
+        try:
+            response = self.client.post(
+                "https://api.x.ai/v1/chat/completions",
+                headers={"Authorization": f"Bearer {self.api_key}"},
+                json={
+                    "model": self.model,
+                    "messages": [{"role": "user", "content": prompt}],
+                    "temperature": 0,
+                    "max_tokens": 800,
+                },
+            )
+            response.raise_for_status()
+            return parse_json_object(response.json()["choices"][0]["message"]["content"])
+        except ProviderError:
+            raise
+        except (httpx.HTTPError, KeyError, IndexError, TypeError, ValueError) as exc:
+            raise ProviderError(f"Grok (xAI) request failed: {type(exc).__name__}.") from exc
+

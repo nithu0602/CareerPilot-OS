@@ -3,10 +3,27 @@ from typing import Literal
 
 from pydantic import BaseModel, Field
 
+InterviewQuestionType = Literal[
+    "behavioral",
+    "technical",
+    "project",
+    "situational",
+    "sql_data",
+    "communication",
+    "role_competency",
+    "motivation",
+    "teamwork",
+    "scenario",
+    "problem_solving",
+    "business_insight",
+    "reflection",
+    "prioritisation",
+]
+
 
 class InterviewTurn(BaseModel):
     question: str
-    question_type: Literal["behavioral", "technical", "project", "situational"]
+    question_type: InterviewQuestionType
     competency: str
     answer: str | None = None
     score: int | None = Field(default=None, ge=0, le=100)
@@ -29,8 +46,18 @@ class InterviewSession(BaseModel):
     max_questions: int = 5
     current_question: InterviewTurn
     turns: list[InterviewTurn] = Field(default_factory=list)
+    # Adaptive planner: categories the interview intends to cover, ordered
+    # deterministically for the role. Weakness-driven follow-ups may slot in
+    # between planned categories.
+    question_plan: list[str] = Field(default_factory=list)
     created_at: datetime
     updated_at: datetime
+
+
+class InterviewCategoryScore(BaseModel):
+    category: str
+    average_score: int = Field(ge=0, le=100)
+    question_count: int = Field(ge=1)
 
 
 class InterviewStartRequest(BaseModel):
@@ -60,6 +87,7 @@ class InterviewResults(BaseModel):
     strengths: list[str]
     weaknesses: list[str]
     competencies_assessed: list[str]
+    category_scores: list[InterviewCategoryScore] = Field(default_factory=list)
     strongest_answer: str
     weakest_answer: str
     recommended_improvements: list[str]
