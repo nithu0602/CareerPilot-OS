@@ -86,7 +86,13 @@ async def search_jobs(request: JobSearchRequest) -> JobSearchResponse:
         normalized: list[JobRecord] = []
         for result in raw_results:
             url = result.get("source_url") or result.get("url")
-            scraped = await client.scrape(url) if url else result
+            if url:
+                try:
+                    scraped = await client.scrape(url)
+                except (httpx.HTTPError, ValueError, RuntimeError, KeyError, TypeError):
+                    scraped = {}
+            else:
+                scraped = {}
             merged = {**result, **scraped}
             merged.setdefault("category", request.category)
             merged.setdefault("experience_level", request.experience)

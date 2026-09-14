@@ -93,13 +93,6 @@ function AnalysisView({ analysis, onNavigate }: { analysis: Analysis; onNavigate
         <div className="flex flex-wrap gap-2 pt-1">
           <button
             type="button"
-            onClick={() => onNavigate("AI Society")}
-            className="rounded-lg bg-indigo-500 px-4 py-2 text-xs font-semibold text-white shadow-md shadow-indigo-500/25 transition-all hover:bg-indigo-400 hover:shadow-indigo-500/40"
-          >
-            NEXT <span aria-hidden="true">→</span>
-          </button>
-          <button
-            type="button"
             onClick={() => onNavigate("Job Intelligence")}
             className="rounded-lg bg-indigo-500/20 border border-indigo-400/30 px-3.5 py-1.5 text-xs font-medium text-indigo-200 hover:bg-indigo-500/30 transition-colors"
           >

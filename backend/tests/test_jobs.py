@@ -116,7 +116,7 @@ def test_anakin_uses_official_search_and_inline_scraper_paths(monkeypatch):
     assert calls[0][0] == "https://api.anakin.io/v1/search"
     assert calls[1] == (
         "https://api.anakin.io/v1/url-scraper/scrape",
-        {"headers": {"Authorization": "Bearer test-key"}, "json": {"url": "https://example.com/job"}},
+        {"headers": {"X-API-Key": "test-key"}, "json": {"url": "https://example.com/job"}},
     )
 
 

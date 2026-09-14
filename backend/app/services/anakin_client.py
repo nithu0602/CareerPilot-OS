@@ -50,7 +50,7 @@ class AnakinClient:
         async with httpx.AsyncClient(timeout=30) as client:
             response = await client.post(
                 f"{self.api_url}/url-scraper/scrape",
-                headers={"Authorization": f"Bearer {self.api_key}"},
+                headers={"X-API-Key": self.api_key},
                 json={"url": url},
             )
             response.raise_for_status()
